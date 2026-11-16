@@ -1,0 +1,2641 @@
+# COD Manager Pro translations.
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr "Project-Id-Version: COD Manager Pro 1.0.0\nReport-Msgid-Bugs-To: https://www.nidacademy.org\nPOT-Creation-Date: 2026-10-09 12:24+0000\nPO-Revision-Date: 2026-10-09 12:24+0000\nLanguage: fr_FR\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Domain: cod-manager-pro\nPlural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: assets/js/charts.js:138
+msgid "Distribution"
+msgstr "Répartition"
+
+#: assets/js/charts.js:159 assets/js/dashboard.js:84
+msgid "No orders in this period."
+msgstr "Aucune commande sur cette période."
+
+#: assets/js/charts.js:41
+msgid "No data for this period."
+msgstr "Aucune donnée sur cette période."
+
+#: assets/js/charts.js:52
+msgid "Chart"
+msgstr "Graphique"
+
+#: assets/js/common.js:39
+msgid "Blacklisted"
+msgstr "Liste noire"
+
+#: assets/js/common.js:40
+msgid "High risk"
+msgstr "Risque élevé"
+
+#: assets/js/common.js:41
+msgid "Watch"
+msgstr "À surveiller"
+
+#: assets/js/common.js:42
+msgid "Trusted"
+msgstr "Fiable"
+
+#: assets/js/common.js:43
+msgid "New customer"
+msgstr "Nouveau client"
+
+#. translators: 1: number of orders, 2: delivered orders, 3: returned orders, 4: cancelled orders.
+#: assets/js/common.js:48
+#, php-format
+msgid "%1$s orders · %2$s delivered · %3$s returned · %4$s cancelled"
+msgstr "%1$s commandes · %2$s livrées · %3$s retournées · %4$s annulées"
+
+#. translators: %s: number of refused (returned) deliveries.
+#: assets/js/common.js:51
+#, php-format
+msgid "%s refused"
+msgstr "%s refusées"
+
+#. translators: %s: HTTP status code.
+#: assets/js/common.js:80
+#, php-format
+msgid "Request failed (%s)"
+msgstr "Échec de la requête (%s)"
+
+#: assets/js/dashboard.js:100
+msgid "Out of stock"
+msgstr "Rupture de stock"
+
+#. translators: %s: number of items left in stock.
+#: assets/js/dashboard.js:102
+#, php-format
+msgid "%s left"
+msgid_plural "%s left"
+msgstr[0] "%s restant"
+msgstr[1] "%s restants"
+
+#. translators: %s: number of items left in stock.
+#: assets/js/dashboard.js:103
+msgid "All tracked products are above the alert level."
+msgstr "Tous les produits suivis sont au-dessus du seuil d'alerte."
+
+#: assets/js/dashboard.js:32
+msgid "No delivered orders in this period yet"
+msgstr "Aucune commande livrée sur cette période pour l'instant"
+
+#. translators: 1: net margin percentage number, 2: gross profit amount with currency.
+#: assets/js/dashboard.js:34
+#, php-format
+msgid "%1$s %% net margin · gross profit %2$s"
+msgstr "%1$s %% de marge nette · bénéfice brut %2$s"
+
+#: assets/js/dashboard.js:53
+msgid "Orders, revenue and profit"
+msgstr "Commandes, chiffre d'affaires et bénéfice"
+
+#: assets/js/dashboard.js:55 assets/js/dashboard.js:86 includes/class-codm-admin.php:51 includes/class-codm-admin.php:51 includes/class-codm-admin.php:191 includes/class-codm-finance-export.php:82 includes/class-codm-finance-export.php:224 includes/class-codm-finance-export.php:1036 includes/views/finance.php:169 includes/views/orders.php:5 includes/views/settings.php:62
+msgid "Orders"
+msgstr "Commandes"
+
+#. translators: %s: net margin, e.g. "12.5 %"
+#: assets/js/dashboard.js:57 assets/js/dashboard.js:86 includes/class-codm-finance-export.php:927 includes/class-codm-finance-export.php:958
+msgid "Revenue"
+msgstr "Chiffre d'affaires"
+
+#: assets/js/dashboard.js:58 assets/js/orders.js:440 assets/js/orders.js:441 includes/class-codm-export.php:79 includes/class-codm-finance-export.php:161 includes/class-codm-finance-export.php:991 includes/views/finance.php:263
+msgid "Profit"
+msgstr "Bénéfice"
+
+#: assets/js/dashboard.js:68
+msgid "orders"
+msgstr "commandes"
+
+#: assets/js/dashboard.js:73
+msgid "No orders yet. New WooCommerce orders appear here automatically."
+msgstr "Aucune commande pour l'instant. Les nouvelles commandes WooCommerce s'affichent ici automatiquement."
+
+#. translators: %s: number of orders
+#: assets/js/dashboard.js:74 includes/class-codm-export.php:59 includes/class-codm-finance-export.php:150 includes/class-codm-finance-export.php:991 includes/views/finance.php:120 includes/views/finance.php:256
+msgid "Order"
+msgstr "Commande"
+
+#: assets/js/dashboard.js:74 assets/js/orders.js:428 assets/js/orders.js:456 includes/class-codm-export.php:61 includes/class-codm-finance-export.php:152 includes/class-codm-finance-export.php:991 includes/views/finance.php:121 includes/views/finance.php:257
+msgid "Customer"
+msgstr "Client"
+
+#: assets/js/dashboard.js:74 assets/js/orders.js:469 includes/class-codm-export.php:63 includes/class-codm-finance-export.php:153 includes/views/orders.php:11
+msgid "City"
+msgstr "Ville"
+
+#: assets/js/dashboard.js:74 assets/js/orders.js:452 includes/class-codm-export.php:70 includes/views/finance.php:122 includes/views/finance.php:258
+msgid "Status"
+msgstr "Statut"
+
+#. translators: 1 delivered 2 returned
+#: assets/js/dashboard.js:74 includes/class-codm-finance-export.php:991 includes/views/finance.php:105 includes/views/finance.php:123
+msgid "COD"
+msgstr "COD"
+
+#: assets/js/dashboard.js:86 includes/class-codm-export.php:75 includes/class-codm-finance-export.php:156 includes/views/orders.php:12
+msgid "Source"
+msgstr "Source"
+
+#: assets/js/dashboard.js:86 includes/class-codm-finance-export.php:84 includes/class-codm-status.php:37 includes/views/dashboard.php:71
+msgid "Confirmed"
+msgstr "Confirmée"
+
+#. translators: %s: today's date
+#: assets/js/dashboard.js:86 assets/js/orders.js:29 assets/js/orders.js:43 assets/js/orders.js:175 includes/class-codm-finance-export.php:86 includes/class-codm-finance-export.php:135 includes/class-codm-finance-export.php:262 includes/class-codm-finance-export.php:778 includes/class-codm-finance-export.php:1018 includes/class-codm-status.php:42 includes/views/dashboard.php:73
+msgid "Delivered"
+msgstr "Livrée"
+
+#. translators: %s: today's date
+#: assets/js/dashboard.js:86 assets/js/orders.js:29 assets/js/orders.js:43 assets/js/orders.js:176 includes/class-codm-finance-export.php:87 includes/class-codm-finance-export.php:135 includes/class-codm-finance-export.php:263 includes/class-codm-finance-export.php:779 includes/class-codm-finance-export.php:1018 includes/class-codm-status.php:44 includes/views/dashboard.php:75
+msgid "Returned"
+msgstr "Retournée"
+
+#: assets/js/dashboard.js:86 assets/js/orders.js:29 includes/class-codm-finance-export.php:88 includes/class-codm-finance-export.php:780 includes/class-codm-status.php:43 includes/views/dashboard.php:74
+msgid "Cancelled"
+msgstr "Annulée"
+
+#: assets/js/dashboard.js:94
+#, php-format
+msgid "Confirmed % = share of orders confirmed by phone/WhatsApp. Delivered % = delivered out of delivered + returned."
+msgstr "Confirmées % = part des commandes confirmées par téléphone/WhatsApp. Livrées % = livrées sur (livrées + retournées)."
+
+#. translators: %s: missing amount with currency.
+#: assets/js/finance.js:29
+#, php-format
+msgid "Missing %s compared to the expected payout."
+msgstr "Il manque %s par rapport au versement prévu."
+
+#. translators: %s: extra amount with currency.
+#: assets/js/finance.js:31
+#, php-format
+msgid "%s more than expected."
+msgstr "%s de plus que prévu."
+
+#: assets/js/orders.js:132
+msgid "No phone"
+msgstr "Pas de téléphone"
+
+#. translators: %s: customer name.
+#: assets/js/orders.js:133
+#, php-format
+msgid "Call %s"
+msgstr "Appeler %s"
+
+#. translators: %s: customer name.
+#: assets/js/orders.js:133
+msgid "Call"
+msgstr "Appeler"
+
+#. translators: %s: customer name.
+#: assets/js/orders.js:134
+#, php-format
+msgid "WhatsApp %s"
+msgstr "WhatsApp %s"
+
+#. translators: %s: ad campaign name.
+#: assets/js/orders.js:141 assets/js/orders.js:446
+#, php-format
+msgid "Campaign: %s"
+msgstr "Campagne : %s"
+
+#: assets/js/orders.js:148 assets/js/orders.js:173
+msgid "Own delivery"
+msgstr "Livraison par vos soins"
+
+#. translators: %s: today's date
+#: assets/js/orders.js:164 assets/js/orders.js:471 includes/class-codm-export.php:71 includes/class-codm-finance-export.php:155 includes/class-codm-finance-export.php:223 includes/class-codm-finance-export.php:261 includes/class-codm-finance-export.php:1018 includes/views/orders.php:13
+msgid "Shipping company"
+msgstr "Société de livraison"
+
+#: assets/js/orders.js:165
+msgid "Tracking (optional)"
+msgstr "Suivi (facultatif)"
+
+#: assets/js/orders.js:165 assets/js/orders.js:472 includes/class-codm-export.php:72
+msgid "Tracking number"
+msgstr "Numéro de suivi"
+
+#: assets/js/orders.js:168
+msgid "Ship"
+msgstr "Expédier"
+
+#: assets/js/orders.js:169
+msgid "Label"
+msgstr "Étiquette"
+
+#: assets/js/orders.js:180
+msgid "Details"
+msgstr "Détails"
+
+#: assets/js/orders.js:188
+msgid "This phone has another order in progress"
+msgstr "Ce numéro a une autre commande en cours"
+
+#: assets/js/orders.js:188
+msgid "Duplicate"
+msgstr "Doublon"
+
+#: assets/js/orders.js:189
+msgid "This number does not have 10 digits. Check it before shipping."
+msgstr "Ce numéro n'a pas 10 chiffres. Vérifiez-le avant l'expédition."
+
+#. translators: %s: reason the customer was blacklisted.
+#: assets/js/orders.js:189 assets/js/orders.js:463
+msgid "Check number"
+msgstr "Vérifier le numéro"
+
+#. translators: %s: number of unanswered call attempts.
+#: assets/js/orders.js:190
+#, php-format
+msgid "No answer ×%s"
+msgstr "Pas de réponse ×%s"
+
+#. translators: %s: order number.
+#: assets/js/orders.js:193
+#, php-format
+msgid "Select order %s"
+msgstr "Sélectionner la commande %s"
+
+#: assets/js/orders.js:203
+msgid "to collect"
+msgstr "à encaisser"
+
+#: assets/js/orders.js:211
+msgid "Nothing to call right now. New orders appear here as soon as customers order."
+msgstr "Aucun appel à faire pour le moment. Les nouvelles commandes s'affichent ici dès que les clients commandent."
+
+#: assets/js/orders.js:212
+msgid "No confirmed orders waiting to be shipped."
+msgstr "Aucune commande confirmée en attente d'expédition."
+
+#: assets/js/orders.js:213
+msgid "No parcels with the courier right now."
+msgstr "Aucun colis chez le livreur pour le moment."
+
+#: assets/js/orders.js:214
+msgid "No finished orders yet."
+msgstr "Aucune commande terminée pour l'instant."
+
+#: assets/js/orders.js:215
+msgid "No orders yet."
+msgstr "Aucune commande pour l'instant."
+
+#: assets/js/orders.js:225
+msgid "No orders match these filters."
+msgstr "Aucune commande ne correspond à ces filtres."
+
+#: assets/js/orders.js:225 includes/views/orders.php:16
+msgid "Clear filters"
+msgstr "Effacer les filtres"
+
+#: assets/js/orders.js:226
+msgid "No orders here."
+msgstr "Aucune commande ici."
+
+#: assets/js/orders.js:23 includes/class-codm-dashboard-widget.php:49
+msgid "To call"
+msgstr "À appeler"
+
+#: assets/js/orders.js:23
+msgid "Confirm by phone"
+msgstr "Confirmer par téléphone"
+
+#: assets/js/orders.js:232 includes/views/finance.php:119
+msgid "Select all"
+msgstr "Tout sélectionner"
+
+#: assets/js/orders.js:24 includes/class-codm-dashboard-widget.php:50
+msgid "To ship"
+msgstr "À expédier"
+
+#: assets/js/orders.js:24
+msgid "Pack & hand to courier"
+msgstr "Emballer et remettre au livreur"
+
+#: assets/js/orders.js:25 includes/class-codm-dashboard-widget.php:51
+msgid "With courier"
+msgstr "Chez le livreur"
+
+#: assets/js/orders.js:25
+msgid "Waiting for delivery"
+msgstr "En attente de livraison"
+
+#. translators: %s: number of orders.
+#: assets/js/orders.js:255 includes/class-codm-finance-export.php:167
+#, php-format
+msgid "%s order"
+msgid_plural "%s orders"
+msgstr[0] "%s commande"
+msgstr[1] "%s commandes"
+
+#. translators: 1: number of orders, 2: current page number, 3: total number of pages.
+#: assets/js/orders.js:258
+#, php-format
+msgid "%1$s order · page %2$s of %3$s"
+msgid_plural "%1$s orders · page %2$s of %3$s"
+msgstr[0] "%1$s commande · page %2$s sur %3$s"
+msgstr[1] "%1$s commandes · page %2$s sur %3$s"
+
+#. translators: 1: number of orders, 2: current page number, 3: total number of pages.
+#: assets/js/orders.js:259
+msgid "Previous"
+msgstr "Précédent"
+
+#: assets/js/orders.js:26
+msgid "Done"
+msgstr "Terminées"
+
+#: assets/js/orders.js:26
+msgid "Delivered, returned, cancelled"
+msgstr "Livrées, retournées, annulées"
+
+#: assets/js/orders.js:260
+msgid "Next"
+msgstr "Suivant"
+
+#. translators: %s: number of selected orders.
+#: assets/js/orders.js:268
+#, php-format
+msgid "%s selected"
+msgstr "%s sélectionnée(s)"
+
+#: assets/js/orders.js:27 assets/js/orders.js:29
+msgid "All"
+msgstr "Toutes"
+
+#: assets/js/orders.js:27
+msgid "Every order"
+msgstr "Toutes les commandes"
+
+#: assets/js/orders.js:302
+msgid "Reason for cancelling (optional):"
+msgstr "Motif d'annulation (facultatif) :"
+
+#. translators: 1: order number, 2: number of unanswered call attempts.
+#: assets/js/orders.js:311
+#, php-format
+msgid "#%1$s: no answer noted (%2$s)"
+msgstr "#%1$s : pas de réponse notée (%2$s)"
+
+#. translators: 1: order number, 2: new status label.
+#: assets/js/orders.js:313
+#, php-format
+msgid "#%1$s → %2$s"
+msgstr "#%1$s → %2$s"
+
+#: assets/js/orders.js:368
+msgid "Choose a status first."
+msgstr "Choisissez d'abord un statut."
+
+#. translators: 1: number of selected orders, 2: target status label.
+#: assets/js/orders.js:371
+#, php-format
+msgid "Move %1$s order to \"%2$s\"? WooCommerce will be updated too."
+msgid_plural "Move %1$s orders to \"%2$s\"? WooCommerce will be updated too."
+msgstr[0] "Passer %1$s commande en « %2$s » ? WooCommerce sera aussi mis à jour."
+msgstr[1] "Passer %1$s commandes en « %2$s » ? WooCommerce sera aussi mis à jour."
+
+#. translators: 1: number of updated orders, 2: number of orders that failed to update.
+#: assets/js/orders.js:378
+#, php-format
+msgid "%1$s order updated, %2$s failed"
+msgid_plural "%1$s orders updated, %2$s failed"
+msgstr[0] "%1$s commande mise à jour, %2$s en échec"
+msgstr[1] "%1$s commandes mises à jour, %2$s en échec"
+
+#. translators: %s: number of updated orders.
+#: assets/js/orders.js:380
+#, php-format
+msgid "%s order updated"
+msgid_plural "%s orders updated"
+msgstr[0] "%s commande mise à jour"
+msgstr[1] "%s commandes mises à jour"
+
+#: assets/js/orders.js:41 assets/js/orders.js:157
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: assets/js/orders.js:41 assets/js/orders.js:158
+msgid "No answer"
+msgstr "Pas de réponse"
+
+#: assets/js/orders.js:41 assets/js/orders.js:42 assets/js/orders.js:159 assets/js/orders.js:170 includes/class-codm-data-tools.php:50
+msgid "Cancel"
+msgstr "Annuler"
+
+#: assets/js/orders.js:42
+msgid "Mark shipped"
+msgstr "Marquer expédiée"
+
+#. translators: %d: number of products not listed on the label
+#: assets/js/orders.js:428 assets/js/orders.js:489 includes/class-codm-labels.php:195
+msgid "Note"
+msgstr "Note"
+
+#: assets/js/orders.js:428
+msgid "Edited"
+msgstr "Modifiée"
+
+#: assets/js/orders.js:428 assets/js/orders.js:464
+msgid "No reply"
+msgstr "Sans réponse"
+
+#: assets/js/orders.js:428
+msgid "Created"
+msgstr "Créée"
+
+#: assets/js/orders.js:428
+msgid "Imported"
+msgstr "Importée"
+
+#: assets/js/orders.js:428
+msgid "Payout"
+msgstr "Versement"
+
+#: assets/js/orders.js:434 includes/class-codm-export.php:69 includes/class-codm-finance-export.php:157 includes/views/finance.php:259
+msgid "COD amount"
+msgstr "Montant COD"
+
+#: assets/js/orders.js:436 includes/class-codm-export.php:79 includes/class-codm-finance-export.php:158 includes/views/finance.php:260
+msgid "Product cost"
+msgstr "Coût produit"
+
+#: assets/js/orders.js:436
+msgid "no cost price set"
+msgstr "aucun prix de revient défini"
+
+#: assets/js/orders.js:438 includes/class-codm-finance-export.php:159
+msgid "Shipping fee"
+msgstr "Frais de livraison"
+
+#: assets/js/orders.js:439 includes/class-codm-finance-export.php:160 includes/views/finance.php:262 includes/views/settings.php:105
+msgid "Return fee"
+msgstr "Frais de retour"
+
+#: assets/js/orders.js:440
+msgid "Expected profit if delivered"
+msgstr "Bénéfice prévu si livrée"
+
+#: assets/js/orders.js:441 includes/class-codm-finance-export.php:225 includes/class-codm-finance-export.php:1036 includes/views/finance.php:147 includes/views/finance.php:170
+msgid "Expected"
+msgstr "Prévu"
+
+#. translators: %s: courier payout ID.
+#: assets/js/orders.js:442
+#, php-format
+msgid "Settled in courier payout #%s"
+msgstr "Réglée dans le versement livreur #%s"
+
+#. translators: %s: order number.
+#: assets/js/orders.js:446
+#, php-format
+msgid "Order #%s"
+msgstr "Commande #%s"
+
+#. translators: %s: order number.
+#: assets/js/orders.js:446
+msgid "Source:"
+msgstr "Source :"
+
+#. translators: %s: ad campaign name.
+#: assets/js/orders.js:447
+msgid "Open in WooCommerce"
+msgstr "Ouvrir dans WooCommerce"
+
+#: assets/js/orders.js:448 assets/js/orders.js:509
+msgid "Close"
+msgstr "Fermer"
+
+#: assets/js/orders.js:453
+msgid "Note (optional)"
+msgstr "Note (facultative)"
+
+#: assets/js/orders.js:453
+msgid "Status note"
+msgstr "Note de statut"
+
+#: assets/js/orders.js:454
+msgid "Update status"
+msgstr "Mettre à jour le statut"
+
+#: assets/js/orders.js:457
+msgid "Another order in progress"
+msgstr "Autre commande en cours"
+
+#. translators: 1: number of orders, 2: delivered orders, 3: refused (returned) orders, 4: cancelled orders.
+#: assets/js/orders.js:460
+#, php-format
+msgid "%1$s orders · %2$s delivered · %3$s refused · %4$s cancelled"
+msgstr "%1$s commandes · %2$s livrées · %3$s refusées · %4$s annulées"
+
+#. translators: %s: reason the customer was blacklisted.
+#: assets/js/orders.js:461
+#, php-format
+msgid "Reason: %s"
+msgstr "Motif : %s"
+
+#: assets/js/orders.js:467 includes/views/settings.php:91 includes/views/settings.php:102
+msgid "Name"
+msgstr "Nom"
+
+#: assets/js/orders.js:468 includes/class-codm-export.php:62 includes/views/settings.php:92 includes/views/settings.php:103
+msgid "Phone"
+msgstr "Téléphone"
+
+#: assets/js/orders.js:470 includes/class-codm-export.php:64
+msgid "Address"
+msgstr "Adresse"
+
+#: assets/js/orders.js:473
+msgid "Number of parcels"
+msgstr "Nombre de colis"
+
+#: assets/js/orders.js:474
+msgid "Customer may open the parcel"
+msgstr "Le client peut ouvrir le colis"
+
+#. translators: %s: currency code.
+#: assets/js/orders.js:475
+#, php-format
+msgid "Shipping fee (%s)"
+msgstr "Frais de livraison (%s)"
+
+#. translators: %s: currency code.
+#: assets/js/orders.js:475 includes/views/settings.php:94
+#, php-format
+msgid "Return fee (%s)"
+msgstr "Frais de retour (%s)"
+
+#. translators: %s: currency code.
+#: assets/js/orders.js:476
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: assets/js/orders.js:477
+msgid "Remove from blacklist"
+msgstr "Retirer de la liste noire"
+
+#: assets/js/orders.js:477
+msgid "Blacklist this customer"
+msgstr "Mettre ce client en liste noire"
+
+#: assets/js/orders.js:480 includes/class-codm-export.php:65
+msgid "Products"
+msgstr "Produits"
+
+#: assets/js/orders.js:480 includes/class-codm-finance-export.php:991
+msgid "Product"
+msgstr "Produit"
+
+#: assets/js/orders.js:480
+msgid "Qty"
+msgstr "Qté"
+
+#: assets/js/orders.js:480
+msgid "Price"
+msgstr "Prix"
+
+#: assets/js/orders.js:480 includes/class-codm-finance-export.php:56 includes/class-codm-finance-export.php:1006 includes/class-codm-finance-export.php:1024 includes/class-codm-finance-export.php:1042 includes/class-codm-finance-export.php:1060
+msgid "Total"
+msgstr "Total"
+
+#: assets/js/orders.js:481 includes/class-codm-export.php:68 includes/views/settings.php:104
+msgid "Delivery fee"
+msgstr "Frais de livraison"
+
+#: assets/js/orders.js:482
+msgid "Discount"
+msgstr "Remise"
+
+#: assets/js/orders.js:483
+msgid "To collect (COD)"
+msgstr "À encaisser (COD)"
+
+#: assets/js/orders.js:484
+msgid "To change products or prices, open the order in WooCommerce."
+msgstr "Pour modifier les produits ou les prix, ouvrez la commande dans WooCommerce."
+
+#: assets/js/orders.js:488
+msgid "Notes & history"
+msgstr "Notes et historique"
+
+#: assets/js/orders.js:489
+msgid "Add a note for the team…"
+msgstr "Ajouter une note pour l'équipe…"
+
+#: assets/js/orders.js:489
+msgid "Add note"
+msgstr "Ajouter la note"
+
+#: assets/js/orders.js:498
+msgid "Loading order…"
+msgstr "Chargement de la commande…"
+
+#: assets/js/orders.js:541
+msgid "Choose a different status or write a note."
+msgstr "Choisissez un autre statut ou écrivez une note."
+
+#. translators: %s: order number.
+#: assets/js/orders.js:552
+#, php-format
+msgid "Order #%s saved. WooCommerce updated."
+msgstr "Commande #%s enregistrée. WooCommerce mis à jour."
+
+#: assets/js/orders.js:558
+msgid "Write a note first."
+msgstr "Écrivez d'abord une note."
+
+#: assets/js/orders.js:560
+msgid "Note added"
+msgstr "Note ajoutée"
+
+#: assets/js/orders.js:567
+msgid "Why blacklist this customer? (e.g. refused 3 deliveries)"
+msgstr "Pourquoi mettre ce client en liste noire ? (ex. 3 livraisons refusées)"
+
+#. translators: %s reason
+#: assets/js/orders.js:571 includes/class-codm-rest.php:208
+msgid "Customer removed from blacklist"
+msgstr "Client retiré de la liste noire"
+
+#: assets/js/orders.js:571
+msgid "Customer blacklisted"
+msgstr "Client mis en liste noire"
+
+#: assets/js/orders.js:61 includes/class-codm-extra.php:244 includes/class-codm-finance-export.php:137
+msgid "Unknown"
+msgstr "Inconnu"
+
+#. translators: %s: shipping company name.
+#: assets/js/orders.js:67
+#, php-format
+msgid "%s (inactive)"
+msgstr "%s (inactive)"
+
+#. translators: %s: shipping company name.
+#: assets/js/orders.js:69 assets/js/orders.js:414
+msgid "No company"
+msgstr "Aucune société"
+
+#. translators: %s: shipping company name.
+#: assets/js/orders.js:72
+msgid "Move to…"
+msgstr "Déplacer vers…"
+
+#: cod-manager-pro.php:60
+msgid "COD Manager Pro needs WooCommerce to be installed and active."
+msgstr "COD Manager Pro nécessite que WooCommerce soit installé et activé."
+
+#: includes/class-codm-admin.php:161
+msgid "Settings saved."
+msgstr "Réglages enregistrés."
+
+#: includes/class-codm-admin.php:162
+msgid "Expense added."
+msgstr "Dépense ajoutée."
+
+#: includes/class-codm-admin.php:163
+msgid "Expense deleted."
+msgstr "Dépense supprimée."
+
+#: includes/class-codm-admin.php:164
+msgid "Payout recorded. The included orders are now marked as settled."
+msgstr "Versement enregistré. Les commandes incluses sont maintenant marquées comme réglées."
+
+#. translators: %d count
+#: includes/class-codm-admin.php:166
+#, php-format
+msgid "%d order imported from WooCommerce."
+msgid_plural "%d orders imported from WooCommerce."
+msgstr[0] "%d commande importée depuis WooCommerce."
+msgstr[1] "%d commandes importées depuis WooCommerce."
+
+#. translators: %d count
+#: includes/class-codm-admin.php:168
+#, php-format
+msgid "Costs recalculated on %d order."
+msgid_plural "Costs recalculated on %d orders."
+msgstr[0] "Coûts recalculés sur %d commande."
+msgstr[1] "Coûts recalculés sur %d commandes."
+
+#. translators: %d count
+#: includes/class-codm-admin.php:171
+msgid "Enter an amount above 0 and a valid date to add an expense."
+msgstr "Saisissez un montant supérieur à 0 et une date valide pour ajouter une dépense."
+
+#. translators: %d count
+#: includes/class-codm-admin.php:172
+msgid "Select at least one unsettled order and a valid date to record a payout."
+msgstr "Sélectionnez au moins une commande non réglée et une date valide pour enregistrer un versement."
+
+#: includes/class-codm-admin.php:173
+msgid "Enter a name for the shipping company."
+msgstr "Saisissez un nom pour la société de livraison."
+
+#: includes/class-codm-admin.php:203
+msgid "COD Manager Pro sections"
+msgstr "Sections de COD Manager Pro"
+
+#: includes/class-codm-admin.php:218
+msgid "You do not have permission to view this page."
+msgstr "Vous n'avez pas l'autorisation de voir cette page."
+
+#: includes/class-codm-admin.php:45 includes/class-codm-admin.php:45 includes/class-codm-admin.php:49 includes/class-codm-admin.php:49 includes/class-codm-admin.php:201 includes/class-codm-dashboard-widget.php:18
+msgid "COD Manager Pro"
+msgstr "COD Manager Pro"
+
+#: includes/class-codm-admin.php:46 includes/class-codm-admin.php:46 includes/class-codm-admin.php:190 includes/class-codm-dashboard-widget.php:115 includes/views/dashboard.php:6
+msgid "Dashboard"
+msgstr "Tableau de bord"
+
+#: includes/class-codm-admin.php:52 includes/views/finance.php:34
+msgid "Finance & COD payouts"
+msgstr "Finances et versements COD"
+
+#: includes/class-codm-admin.php:52 includes/class-codm-admin.php:192
+msgid "Finance & payouts"
+msgstr "Finances et versements"
+
+#: includes/class-codm-admin.php:53 includes/class-codm-admin.php:53 includes/class-codm-admin.php:193 includes/class-codm-plugin-info.php:68 includes/views/settings.php:21
+msgid "Settings"
+msgstr "Réglages"
+
+#: includes/class-codm-carrier-manual.php:14
+msgid "Manual (no API)"
+msgstr "Manuel (sans API)"
+
+#: includes/class-codm-carrier-manual.php:22
+msgid "This shipping company has no API connection. Enter the tracking number by hand."
+msgstr "Cette société de livraison n'a pas de connexion API. Saisissez le numéro de suivi à la main."
+
+#: includes/class-codm-carrier-manual.php:26
+msgid "This shipping company has no API connection."
+msgstr "Cette société de livraison n'a pas de connexion API."
+
+#: includes/class-codm-dashboard-widget.php:101
+msgid "Finish the setup"
+msgstr "Terminez la configuration"
+
+#: includes/class-codm-dashboard-widget.php:113
+msgid "Open orders"
+msgstr "Ouvrir les commandes"
+
+#: includes/class-codm-dashboard-widget.php:116
+msgid "Finance"
+msgstr "Finances"
+
+#: includes/class-codm-dashboard-widget.php:43
+msgid "COD Manager Pro is not set up yet. Deactivate and activate the plugin again."
+msgstr "COD Manager Pro n'est pas encore configuré. Désactivez puis réactivez l'extension."
+
+#: includes/class-codm-dashboard-widget.php:82
+msgid "New orders today"
+msgstr "Nouvelles commandes aujourd'hui"
+
+#: includes/class-codm-dashboard-widget.php:89 includes/views/dashboard.php:43 includes/views/finance.php:22
+msgid "This month"
+msgstr "Ce mois-ci"
+
+#: includes/class-codm-dashboard-widget.php:91
+msgid "Delivered orders"
+msgstr "Commandes livrées"
+
+#. translators: %s: amount received from couriers
+#: includes/class-codm-dashboard-widget.php:92 includes/class-codm-finance-export.php:90 includes/class-codm-finance-export.php:419 includes/class-codm-finance-export.php:929
+msgid "Delivery rate"
+msgstr "Taux de livraison"
+
+#: includes/class-codm-dashboard-widget.php:93 includes/class-codm-finance-export.php:419 includes/views/dashboard.php:61
+msgid "Revenue (delivered)"
+msgstr "Chiffre d'affaires (livrées)"
+
+#. translators: %s: date and time the report was generated
+#: includes/class-codm-dashboard-widget.php:94 includes/class-codm-finance-export.php:76 includes/class-codm-finance-export.php:419 includes/class-codm-finance-export.php:770 includes/class-codm-finance-export.php:926 includes/class-codm-finance-export.php:965 includes/views/dashboard.php:56 includes/views/finance.php:57 includes/views/finance.php:88
+msgid "Net profit"
+msgstr "Bénéfice net"
+
+#: includes/class-codm-dashboard-widget.php:95 includes/class-codm-finance-export.php:81 includes/class-codm-finance-export.php:257 includes/views/finance.php:71
+msgid "Still owed by couriers"
+msgstr "Encore dû par les livreurs"
+
+#: includes/class-codm-data-tools.php:190 includes/class-codm-data-tools.php:271 includes/class-codm-export.php:16 includes/class-codm-finance-export.php:28 includes/class-codm-finance.php:322 includes/class-codm-settings.php:27
+msgid "You do not have permission to do this."
+msgstr "Vous n'avez pas l'autorisation de faire ceci."
+
+#: includes/class-codm-data-tools.php:194
+msgid "The backup could not be created on this server (the PHP Zip extension is missing)."
+msgstr "La sauvegarde n'a pas pu être créée sur ce serveur (l'extension PHP Zip est absente)."
+
+#: includes/class-codm-data-tools.php:203
+msgid "The backup could not be created."
+msgstr "La sauvegarde n'a pas pu être créée."
+
+#: includes/class-codm-data-tools.php:39
+msgid "Deactivate COD Manager Pro"
+msgstr "Désactiver COD Manager Pro"
+
+#: includes/class-codm-data-tools.php:40
+msgid "What should happen to your COD Manager Pro data?"
+msgstr "Que faire de vos données COD Manager Pro ?"
+
+#. translators: 1: orders 2: customers 3: expenses 4: payouts
+#: includes/class-codm-data-tools.php:42
+#, php-format
+msgid "Saved now: %1$s orders, %2$s customers, %3$s expenses, %4$s courier payouts, plus your shipping companies, cost prices and settings."
+msgstr "Enregistré actuellement : %1$s commandes, %2$s clients, %3$s dépenses, %4$s versements de livreurs, ainsi que vos sociétés de livraison, prix de revient et réglages."
+
+#. translators: 1: orders 2: customers 3: expenses 4: payouts
+#: includes/class-codm-data-tools.php:43
+msgid "Keep my data"
+msgstr "Conserver mes données"
+
+#. translators: 1: orders 2: customers 3: expenses 4: payouts
+#: includes/class-codm-data-tools.php:44
+msgid "Recommended. Everything is still here when you activate the plugin again."
+msgstr "Recommandé. Tout sera toujours là quand vous réactiverez l'extension."
+
+#: includes/class-codm-data-tools.php:45
+msgid "Delete all COD Manager Pro data"
+msgstr "Supprimer toutes les données de COD Manager Pro"
+
+#: includes/class-codm-data-tools.php:46
+msgid "Orders follow-up, call notes, customers and blacklist, shipping companies, expenses, payouts, cost prices and settings are deleted for good. Your WooCommerce orders themselves are not deleted."
+msgstr "Le suivi des commandes, les notes d'appel, les clients et la liste noire, les sociétés de livraison, les dépenses, les versements, les prix de revient et les réglages sont supprimés définitivement. Vos commandes WooCommerce elles-mêmes ne sont pas supprimées."
+
+#: includes/class-codm-data-tools.php:47
+msgid "Download a backup"
+msgstr "Télécharger une sauvegarde"
+
+#: includes/class-codm-data-tools.php:48
+msgid "ZIP file with your data in CSV files (opens in Excel or Google Sheets)."
+msgstr "Fichier ZIP contenant vos données en fichiers CSV (s'ouvrent dans Excel ou Google Sheets)."
+
+#: includes/class-codm-data-tools.php:49
+msgid "I understand that deleted data cannot be recovered."
+msgstr "Je comprends que les données supprimées ne peuvent pas être récupérées."
+
+#: includes/class-codm-data-tools.php:51
+msgid "Deactivate"
+msgstr "Désactiver"
+
+#: includes/class-codm-data-tools.php:52
+msgid "Delete data and deactivate"
+msgstr "Supprimer les données et désactiver"
+
+#: includes/class-codm-data-tools.php:53
+msgid "Your backup is downloading."
+msgstr "Votre sauvegarde est en cours de téléchargement."
+
+#: includes/class-codm-export.php:128
+msgid "Select the orders to print first."
+msgstr "Sélectionnez d'abord les commandes à imprimer."
+
+#: includes/class-codm-export.php:47
+msgid "Only a manager can export orders."
+msgstr "Seul un responsable peut exporter les commandes."
+
+#. translators: %s currency
+#: includes/class-codm-export.php:60 includes/class-codm-finance-export.php:151 includes/class-codm-finance-export.php:186 includes/class-codm-finance-export.php:222 includes/class-codm-finance-export.php:1036 includes/class-codm-finance-export.php:1054 includes/views/finance.php:167 includes/views/finance.php:207 includes/views/finance.php:216
+msgid "Date"
+msgstr "Date"
+
+#: includes/class-codm-export.php:66
+msgid "Quantity"
+msgstr "Quantité"
+
+#: includes/class-codm-export.php:67
+msgid "Products total"
+msgstr "Total produits"
+
+#: includes/class-codm-export.php:73
+msgid "Unanswered messages"
+msgstr "Messages sans réponse"
+
+#: includes/class-codm-export.php:74
+msgid "Delivery attempts"
+msgstr "Tentatives de livraison"
+
+#: includes/class-codm-export.php:76
+msgid "Campaign"
+msgstr "Campagne"
+
+#: includes/class-codm-export.php:79
+msgid "Shipping cost"
+msgstr "Coût de livraison"
+
+#: includes/class-codm-export.php:79
+msgid "Return cost"
+msgstr "Coût de retour"
+
+#: includes/class-codm-extra.php:269
+msgid "Add your shipping companies and their delivery / return fees, so profit and courier payouts are correct."
+msgstr "Ajoutez vos sociétés de livraison et leurs frais de livraison / retour, pour que le bénéfice et les versements des livreurs soient justes."
+
+#: includes/class-codm-extra.php:271
+msgid "Choose a default shipping company for new orders."
+msgstr "Choisissez une société de livraison par défaut pour les nouvelles commandes."
+
+#. translators: %d number of products
+#: includes/class-codm-extra.php:283
+#, php-format
+msgid "%d product has no cost price. Add it in Products > Edit > \"Cost price\" so profit is calculated."
+msgid_plural "%d products have no cost price. Add it in Products > Edit > \"Cost price\" so profit is calculated."
+msgstr[0] "%d produit n'a pas de prix de revient. Ajoutez-le dans Produits > Modifier > « Prix de revient » pour calculer le bénéfice."
+msgstr[1] "%d produits n'ont pas de prix de revient. Ajoutez-le dans Produits > Modifier > « Prix de revient » pour calculer le bénéfice."
+
+#: includes/class-codm-extra.php:288
+msgid "Add your store phone and address. They are printed on the shipping labels."
+msgstr "Ajoutez le téléphone et l'adresse de votre boutique. Ils sont imprimés sur les étiquettes d'expédition."
+
+#: includes/class-codm-extra.php:31
+msgid "We cannot place this order with this phone number. If you have already ordered, we will call you soon to confirm it. Otherwise, please contact us."
+msgstr "Nous ne pouvons pas passer cette commande avec ce numéro de téléphone. Si vous avez déjà commandé, nous vous appellerons bientôt pour la confirmer. Sinon, merci de nous contacter."
+
+#: includes/class-codm-extra.php:35
+msgid "Please enter a valid Moroccan phone number (for example 0612345678)."
+msgstr "Veuillez saisir un numéro de téléphone marocain valide (par exemple 0612345678)."
+
+#: includes/class-codm-finance-export.php:1013
+msgid "Courier settlement"
+msgstr "Règlement livreurs"
+
+#. translators: %s: today's date
+#: includes/class-codm-finance-export.php:1013
+#, php-format
+msgid "as of %s"
+msgstr "au %s"
+
+#: includes/class-codm-finance-export.php:1031
+msgid "Payouts received"
+msgstr "Versements reçus"
+
+#: includes/class-codm-finance-export.php:1031
+msgid "in this period"
+msgstr "sur cette période"
+
+#: includes/class-codm-finance-export.php:1036 includes/views/finance.php:168
+msgid "Company"
+msgstr "Société"
+
+#: includes/class-codm-finance-export.php:105 includes/class-codm-finance-export.php:106
+msgid "Summary"
+msgstr "Résumé"
+
+#: includes/class-codm-finance-export.php:1066
+msgid "Orders are counted by the date they were placed; expenses and payouts by their own date. Revenue and costs only include delivered orders; returned orders count their shipping and return fees. “Still owed” covers every delivered or returned order not yet settled with the courier, as of today. Product costs come from the “Cost price” field on each product."
+msgstr "Les commandes sont comptées à leur date de passage ; les dépenses et les versements à leur propre date. Le chiffre d'affaires et les coûts ne comprennent que les commandes livrées ; les commandes retournées comptent leurs frais de livraison et de retour. « Encore dû » couvre toutes les commandes livrées ou retournées pas encore réglées avec le livreur, à ce jour. Les coûts produits viennent du champ « Prix de revient » de chaque produit."
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:107 includes/class-codm-finance-export.php:440
+msgid "Item"
+msgstr "Élément"
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:107 includes/class-codm-finance-export.php:440
+msgid "Value"
+msgstr "Valeur"
+
+#: includes/class-codm-finance-export.php:147 includes/class-codm-finance-export.php:148 includes/class-codm-finance-export.php:986 includes/views/finance.php:249
+msgid "Profit per order"
+msgstr "Bénéfice par commande"
+
+#: includes/class-codm-finance-export.php:154 includes/class-codm-finance-export.php:991
+msgid "Result"
+msgstr "Résultat"
+
+#: includes/class-codm-finance-export.php:168
+msgid "No delivered or returned orders in this period."
+msgstr "Aucune commande livrée ou retournée sur cette période."
+
+#: includes/class-codm-finance-export.php:184 includes/class-codm-finance-export.php:185 includes/class-codm-finance-export.php:1049 includes/views/finance.php:195
+msgid "Expenses"
+msgstr "Dépenses"
+
+#: includes/class-codm-finance-export.php:186 includes/class-codm-finance-export.php:1054 includes/views/finance.php:199 includes/views/finance.php:217
+msgid "Category"
+msgstr "Catégorie"
+
+#: includes/class-codm-finance-export.php:186 includes/class-codm-finance-export.php:1054 includes/views/finance.php:208 includes/views/finance.php:218
+msgid "Description"
+msgstr "Description"
+
+#: includes/class-codm-finance-export.php:186 includes/class-codm-finance-export.php:1054 includes/views/finance.php:219
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/class-codm-finance-export.php:190
+msgid "No expenses in this period."
+msgstr "Aucune dépense sur cette période."
+
+#: includes/class-codm-finance-export.php:219
+msgid "Courier payouts"
+msgstr "Versements des livreurs"
+
+#: includes/class-codm-finance-export.php:220
+msgid "Courier payouts received"
+msgstr "Versements des livreurs reçus"
+
+#: includes/class-codm-finance-export.php:226 includes/class-codm-finance-export.php:1036 includes/views/finance.php:171
+msgid "Received"
+msgstr "Reçu"
+
+#: includes/class-codm-finance-export.php:227 includes/class-codm-finance-export.php:1036 includes/views/finance.php:172
+msgid "Difference"
+msgstr "Écart"
+
+#: includes/class-codm-finance-export.php:228 includes/class-codm-finance-export.php:1036 includes/views/finance.php:150 includes/views/finance.php:173
+msgid "Reference"
+msgstr "Référence"
+
+#: includes/class-codm-finance-export.php:229 includes/views/finance.php:151
+msgid "Notes"
+msgstr "Notes"
+
+#: includes/class-codm-finance-export.php:235
+msgid "No payouts recorded in this period."
+msgstr "Aucun versement enregistré sur cette période."
+
+#. translators: %s: today's date
+#: includes/class-codm-finance-export.php:259
+#, php-format
+msgid "Still owed by couriers (as of %s)"
+msgstr "Encore dû par les livreurs (au %s)"
+
+#. translators: %s: today's date
+#: includes/class-codm-finance-export.php:264 includes/class-codm-finance-export.php:1018
+msgid "COD collected"
+msgstr "COD encaissé"
+
+#. translators: %s: today's date
+#: includes/class-codm-finance-export.php:265 includes/class-codm-finance-export.php:1018 includes/views/finance.php:106 includes/views/finance.php:124
+msgid "Fees"
+msgstr "Frais"
+
+#: includes/class-codm-finance-export.php:266 includes/class-codm-finance-export.php:1018
+msgid "Expected payout"
+msgstr "Versement prévu"
+
+#: includes/class-codm-finance-export.php:271
+msgid "Every delivered and returned order is settled."
+msgstr "Toutes les commandes livrées et retournées sont réglées."
+
+#: includes/class-codm-finance-export.php:286
+msgid "The Excel file could not be created on this server (the PHP Zip extension is missing)."
+msgstr "Le fichier Excel n'a pas pu être créé sur ce serveur (l'extension PHP Zip est manquante)."
+
+#. translators: %s: number of delivered orders
+#: includes/class-codm-finance-export.php:419 includes/class-codm-finance-export.php:928
+msgid "Owed by couriers"
+msgstr "Dû par les livreurs"
+
+#. translators: %s: net margin, e.g. "12.5 %"
+#: includes/class-codm-finance-export.php:430 includes/class-codm-finance-export.php:926
+msgid "No delivered orders yet"
+msgstr "Aucune commande livrée pour l'instant"
+
+#. translators: %s: net margin, e.g. "12.5 %"
+#: includes/class-codm-finance-export.php:430 includes/class-codm-finance-export.php:926
+#, php-format
+msgid "%s net margin"
+msgstr "%s de marge nette"
+
+#. translators: %s: number of delivered orders
+#: includes/class-codm-finance-export.php:432 includes/class-codm-finance-export.php:927
+#, php-format
+msgid "%s delivered order"
+msgid_plural "%s delivered orders"
+msgstr[0] "%s commande livrée"
+msgstr[1] "%s commandes livrées"
+
+#. translators: %s: amount received from couriers
+#: includes/class-codm-finance-export.php:434 includes/class-codm-finance-export.php:928
+#, php-format
+msgid "Received %s"
+msgstr "%s reçus"
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:436 includes/class-codm-finance-export.php:929
+#, php-format
+msgid "%s order placed"
+msgid_plural "%s orders placed"
+msgstr[0] "%s commande passée"
+msgstr[1] "%s commandes passées"
+
+#: includes/class-codm-finance-export.php:475
+msgid "Finance summary"
+msgstr "Résumé financier"
+
+#. translators: 1: current page number 2: total number of pages
+#: includes/class-codm-finance-export.php:526 includes/class-codm-finance-export.php:753
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr "Page %1$s sur %2$s"
+
+#. translators: 1: current page number 2: total number of pages
+#: includes/class-codm-finance-export.php:527 includes/class-codm-finance-export.php:750 includes/class-codm-finance-export.php:915
+msgid "Finance report"
+msgstr "Rapport financier"
+
+#. translators: 1: date range 2: currency 3: export date and time
+#: includes/class-codm-finance-export.php:636
+#, php-format
+msgid "Period %1$s  ·  Amounts in %2$s  ·  Exported %3$s"
+msgstr "Période %1$s  ·  Montants en %2$s  ·  Exporté le %3$s"
+
+#. translators: %s: amount of the loss
+#: includes/class-codm-finance-export.php:67 includes/class-codm-finance-export.php:955 includes/views/finance.php:78
+msgid "Profit and loss"
+msgstr "Pertes et profits"
+
+#. translators: 1: store name 2: date range
+#: includes/class-codm-finance-export.php:676
+#, php-format
+msgid "%1$s – Finance report %2$s"
+msgstr "%1$s – Rapport financier %2$s"
+
+#: includes/class-codm-finance-export.php:68 includes/views/finance.php:80
+msgid "Sales value (all non-cancelled orders)"
+msgstr "Valeur des ventes (toutes les commandes non annulées)"
+
+#: includes/class-codm-finance-export.php:69 includes/views/finance.php:81
+msgid "Revenue (delivered orders)"
+msgstr "Chiffre d'affaires (commandes livrées)"
+
+#: includes/class-codm-finance-export.php:70 includes/class-codm-finance-export.php:764 includes/class-codm-finance-export.php:959 includes/views/finance.php:82
+msgid "Product costs"
+msgstr "Coûts produits"
+
+#: includes/class-codm-finance-export.php:71 includes/class-codm-finance-export.php:960 includes/views/finance.php:83
+msgid "Gross profit"
+msgstr "Bénéfice brut"
+
+#: includes/class-codm-finance-export.php:72 includes/class-codm-finance-export.php:961 includes/views/finance.php:84
+msgid "Shipping costs"
+msgstr "Frais de livraison"
+
+#: includes/class-codm-finance-export.php:73 includes/class-codm-finance-export.php:962 includes/views/finance.php:85
+msgid "Return costs"
+msgstr "Frais de retour"
+
+#: includes/class-codm-finance-export.php:74 includes/class-codm-finance-export.php:963 includes/class-codm-finance.php:27 includes/views/finance.php:86
+msgid "Advertising"
+msgstr "Publicité"
+
+#: includes/class-codm-finance-export.php:75 includes/class-codm-finance-export.php:964 includes/views/finance.php:87
+msgid "Other expenses"
+msgstr "Autres dépenses"
+
+#: includes/class-codm-finance-export.php:765
+msgid "Shipping & returns"
+msgstr "Livraison et retours"
+
+#: includes/class-codm-finance-export.php:766
+msgid "Ads & other expenses"
+msgstr "Publicité et autres dépenses"
+
+#: includes/class-codm-finance-export.php:77
+msgid "Net margin (on delivered revenue)"
+msgstr "Marge nette (sur le CA livré)"
+
+#: includes/class-codm-finance-export.php:78 includes/class-codm-finance-export.php:970
+msgid "Cash on delivery"
+msgstr "Paiement à la livraison"
+
+#: includes/class-codm-finance-export.php:781
+msgid "Still in progress"
+msgstr "Encore en cours"
+
+#. translators: %s margin percentage
+#: includes/class-codm-finance-export.php:79 includes/views/finance.php:69
+msgid "COD collected by couriers"
+msgstr "COD encaissé par les livreurs"
+
+#. translators: 1: start date 2: end date
+#: includes/class-codm-finance-export.php:798
+#, php-format
+msgid "Finance report %1$s to %2$s"
+msgstr "Rapport financier du %1$s au %2$s"
+
+#: includes/class-codm-finance-export.php:80 includes/class-codm-finance-export.php:972 includes/views/finance.php:70
+msgid "Received from couriers"
+msgstr "Reçu des livreurs"
+
+#: includes/class-codm-finance-export.php:83
+msgid "Orders placed"
+msgstr "Commandes passées"
+
+#: includes/class-codm-finance-export.php:85 includes/class-codm-status.php:40 includes/views/dashboard.php:72
+msgid "Shipped"
+msgstr "Expédiée"
+
+#: includes/class-codm-finance-export.php:89 includes/views/dashboard.php:64
+msgid "Confirmation rate"
+msgstr "Taux de confirmation"
+
+#: includes/class-codm-finance-export.php:907
+msgid "Save as PDF / Print"
+msgstr "Enregistrer en PDF / Imprimer"
+
+#: includes/class-codm-finance-export.php:908
+msgid "Back to Finance"
+msgstr "Retour aux finances"
+
+#: includes/class-codm-finance-export.php:909
+msgid "Choose “Save as PDF” as the destination. Turn off “Headers and footers” in More settings if your browser still prints the web address."
+msgstr "Choisissez « Enregistrer au format PDF » comme destination. Désactivez « En-têtes et pieds de page » dans Plus de paramètres si votre navigateur imprime encore l'adresse web."
+
+#: includes/class-codm-finance-export.php:91 includes/views/dashboard.php:63
+msgid "Return rate"
+msgstr "Taux de retour"
+
+#: includes/class-codm-finance-export.php:919 includes/views/dashboard.php:39 includes/views/finance.php:38
+msgid "Period"
+msgstr "Période"
+
+#: includes/class-codm-finance-export.php:92
+msgid "Average order value (delivered)"
+msgstr "Panier moyen (livrées)"
+
+#. translators: %s: date and time the report was generated
+#: includes/class-codm-finance-export.php:921
+#, php-format
+msgid "Generated %s"
+msgstr "Généré le %s"
+
+#: includes/class-codm-finance-export.php:93 includes/views/finance.php:72
+msgid "Cost per delivered order (ads)"
+msgstr "Coût pub par commande livrée"
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:933
+msgid "Where the revenue went"
+msgstr "Où est passé le chiffre d'affaires"
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:935
+msgid "No delivered orders or costs in this period yet."
+msgstr "Aucune commande livrée ni aucun coût sur cette période pour l'instant."
+
+#. translators: %s: amount of the loss
+#: includes/class-codm-finance-export.php:948
+#, php-format
+msgid "Costs are higher than delivered revenue: this period is a loss of %s."
+msgstr "Les coûts dépassent le chiffre d'affaires livré : cette période est en perte de %s."
+
+#. translators: %s: amount of the loss
+#: includes/class-codm-finance-export.php:957
+msgid "Sales value"
+msgstr "Valeur des ventes"
+
+#: includes/class-codm-finance-export.php:957
+msgid "All non-cancelled orders placed"
+msgstr "Toutes les commandes passées non annulées"
+
+#: includes/class-codm-finance-export.php:958
+msgid "Delivered orders only"
+msgstr "Commandes livrées uniquement"
+
+#: includes/class-codm-finance-export.php:971
+msgid "Collected by couriers"
+msgstr "Encaissé par les livreurs"
+
+#: includes/class-codm-finance-export.php:973
+msgid "Still owed to you"
+msgstr "Restant dû"
+
+#. translators: %s: number of orders placed
+#: includes/class-codm-finance-export.php:976
+#, php-format
+msgid "Orders · %s placed"
+msgid_plural "Orders · %s placed"
+msgstr[0] "Commandes · %s passée"
+msgstr[1] "Commandes · %s passées"
+
+#: includes/class-codm-finance-export.php:980
+msgid "Avg. order"
+msgstr "Panier moyen"
+
+#: includes/class-codm-finance-export.php:980
+msgid "Ad cost / delivery"
+msgstr "Coût pub / livraison"
+
+#. translators: %s: number of orders
+#: includes/class-codm-finance-export.php:986
+#, php-format
+msgid "%s delivered or returned"
+msgid_plural "%s delivered or returned"
+msgstr[0] "%s livrée ou retournée"
+msgstr[1] "%s livrées ou retournées"
+
+#: includes/class-codm-finance-export.php:991 includes/views/finance.php:261
+msgid "Shipping"
+msgstr "Livraison"
+
+#: includes/class-codm-finance-export.php:991
+msgid "Return"
+msgstr "Retour"
+
+#: includes/class-codm-finance.php:242
+msgid "No shipping company"
+msgstr "Aucune société de livraison"
+
+#: includes/class-codm-finance.php:28
+msgid "Packaging"
+msgstr "Emballage"
+
+#: includes/class-codm-finance.php:29
+msgid "Salaries & agents"
+msgstr "Salaires et agents"
+
+#: includes/class-codm-finance.php:30
+msgid "Other shipping costs"
+msgstr "Autres frais de livraison"
+
+#: includes/class-codm-finance.php:31
+msgid "Apps & subscriptions"
+msgstr "Applications et abonnements"
+
+#: includes/class-codm-finance.php:32
+msgid "Other"
+msgstr "Autre"
+
+#. translators: %d payout id
+#: includes/class-codm-finance.php:411
+#, php-format
+msgid "Included in courier payout #%d"
+msgstr "Inclus dans le versement livreur #%d"
+
+#: includes/class-codm-labels.php:13
+msgid "Thermal 10×15 cm"
+msgstr "Thermique 10×15 cm"
+
+#: includes/class-codm-labels.php:130
+msgid "Expéditeur"
+msgstr "Expéditeur"
+
+#: includes/class-codm-labels.php:14
+msgid "A4 · 4 per page"
+msgstr "A4 · 4 par page"
+
+#: includes/class-codm-labels.php:144
+msgid "Destinataire"
+msgstr "Destinataire"
+
+#: includes/class-codm-labels.php:157
+msgid "Montant à encaisser (CRBT)"
+msgstr "Montant à encaisser (CRBT)"
+
+#: includes/class-codm-labels.php:157
+msgid "Déjà payé · rien à encaisser"
+msgstr "Déjà payé · rien à encaisser"
+
+#: includes/class-codm-labels.php:165
+msgid "Ouverture"
+msgstr "Ouverture"
+
+#: includes/class-codm-labels.php:166
+msgid "Autorisée"
+msgstr "Autorisée"
+
+#: includes/class-codm-labels.php:166
+msgid "Interdite"
+msgstr "Interdite"
+
+#: includes/class-codm-labels.php:169
+msgid "Colis"
+msgstr "Colis"
+
+#: includes/class-codm-labels.php:173
+msgid "Poids"
+msgstr "Poids"
+
+#. translators: %s: parcel weight in kilograms
+#: includes/class-codm-labels.php:174
+#, php-format
+msgid "%s kg"
+msgstr "%s kg"
+
+#. translators: %s: parcel weight in kilograms
+#: includes/class-codm-labels.php:178
+msgid "Attention"
+msgstr "Attention"
+
+#. translators: %s: parcel weight in kilograms
+#: includes/class-codm-labels.php:179
+msgid "Fragile"
+msgstr "Fragile"
+
+#. translators: %d: number of items in the parcel
+#: includes/class-codm-labels.php:185
+#, php-format
+msgid "Contenu · %d article"
+msgid_plural "Contenu · %d articles"
+msgstr[0] "Contenu · %d article"
+msgstr[1] "Contenu · %d articles"
+
+#. translators: %d: number of products not listed on the label
+#: includes/class-codm-labels.php:192
+#, php-format
+msgid "+ %d autre produit"
+msgid_plural "+ %d autres produits"
+msgstr[0] "+ %d autre produit"
+msgstr[1] "+ %d autres produits"
+
+#. translators: %s: tracking number
+#: includes/class-codm-labels.php:207
+#, php-format
+msgid "Suivi %s"
+msgstr "Suivi %s"
+
+#. translators: %s: tracking number
+#: includes/class-codm-labels.php:212
+msgid "Réservé au transporteur"
+msgstr "Réservé au transporteur"
+
+#. translators: %d labels
+#: includes/class-codm-labels.php:54
+#, php-format
+msgid "%d shipping label"
+msgid_plural "%d shipping labels"
+msgstr[0] "%d étiquette d'expédition"
+msgstr[1] "%d étiquettes d'expédition"
+
+#. translators: %d labels
+#: includes/class-codm-labels.php:62
+#, php-format
+msgid "%d label"
+msgid_plural "%d labels"
+msgstr[0] "%d étiquette"
+msgstr[1] "%d étiquettes"
+
+#: includes/class-codm-labels.php:66
+msgid "Print"
+msgstr "Imprimer"
+
+#. translators: %s status
+#: includes/class-codm-orders.php:106
+#, php-format
+msgid "This order is already %s. Only a manager can change it."
+msgstr "Cette commande est déjà %s. Seul un responsable peut la modifier."
+
+#. translators: 1: status 2: user
+#: includes/class-codm-orders.php:165
+#, php-format
+msgid "COD Manager Pro: status changed to %1$s by %2$s."
+msgstr "COD Manager Pro : statut changé en %1$s par %2$s."
+
+#. translators: %d attempt number
+#: includes/class-codm-orders.php:201
+#, php-format
+msgid "No answer (attempt %d)"
+msgstr "Pas de réponse (tentative %d)"
+
+#. translators: %s: order note
+#: includes/class-codm-orders.php:206
+#, php-format
+msgid "COD Manager Pro: %s"
+msgstr "COD Manager Pro : %s"
+
+#: includes/class-codm-orders.php:222
+msgid "name"
+msgstr "nom"
+
+#: includes/class-codm-orders.php:223
+msgid "phone"
+msgstr "téléphone"
+
+#: includes/class-codm-orders.php:224
+msgid "city"
+msgstr "ville"
+
+#: includes/class-codm-orders.php:225
+msgid "address"
+msgstr "adresse"
+
+#: includes/class-codm-orders.php:226
+msgid "shipping company"
+msgstr "société de livraison"
+
+#: includes/class-codm-orders.php:227
+msgid "tracking number"
+msgstr "numéro de suivi"
+
+#: includes/class-codm-orders.php:228
+msgid "shipping cost"
+msgstr "coût de livraison"
+
+#: includes/class-codm-orders.php:229
+msgid "return cost"
+msgstr "coût de retour"
+
+#: includes/class-codm-orders.php:230
+msgid "number of parcels"
+msgstr "nombre de colis"
+
+#: includes/class-codm-orders.php:231
+msgid "opening allowed"
+msgstr "ouverture autorisée"
+
+#: includes/class-codm-orders.php:279
+msgid "Enter the customer name."
+msgstr "Saisissez le nom du client."
+
+#: includes/class-codm-orders.php:284
+msgid "This order is settled in a courier payout, so its shipping company can no longer change."
+msgstr "Cette commande est réglée dans un versement livreur, sa société de livraison ne peut donc plus changer."
+
+#. translators: %s list of fields
+#: includes/class-codm-orders.php:302
+#, php-format
+msgid "Updated %s"
+msgstr "Mis à jour : %s"
+
+#. translators: 1: status 2: user
+#: includes/class-codm-orders.php:53 includes/class-codm-orders.php:167
+msgid "System"
+msgstr "Système"
+
+#: includes/class-codm-orders.php:72
+msgid "Unknown status."
+msgstr "Statut inconnu."
+
+#: includes/class-codm-orders.php:76 includes/class-codm-orders.php:196 includes/class-codm-orders.php:219 includes/class-codm-rest.php:119 includes/class-codm-rest.php:128
+msgid "Order not found in COD Manager Pro."
+msgstr "Commande introuvable dans COD Manager Pro."
+
+#. translators: %d payout id
+#: includes/class-codm-orders.php:90
+#, php-format
+msgid "This order is settled in courier payout #%d, so its status can no longer change."
+msgstr "Cette commande est réglée dans le versement livreur #%d, son statut ne peut donc plus changer."
+
+#. translators: 1: requested status 2: reason
+#: includes/class-codm-orders.php:95
+#, php-format
+msgid "Status change to %1$s ignored. %2$s"
+msgstr "Changement de statut en %1$s ignoré. %2$s"
+
+#: includes/class-codm-plugin-info.php:117
+msgid "Does it work with my normal WooCommerce checkout?"
+msgstr "Fonctionne-t-elle avec ma page de commande WooCommerce habituelle ?"
+
+#: includes/class-codm-plugin-info.php:117
+msgid "Yes. Every cash on delivery order from the classic or the block checkout appears in COD Manager Pro automatically. Orders you already have can be imported from Settings > Tools."
+msgstr "Oui. Chaque commande en paiement à la livraison passée via la page de commande classique ou en blocs apparaît automatiquement dans COD Manager Pro. Vos commandes existantes peuvent être importées depuis Réglages > Outils."
+
+#: includes/class-codm-plugin-info.php:118
+msgid "Do I need an external app or account?"
+msgstr "Ai-je besoin d'une application ou d'un compte externe ?"
+
+#: includes/class-codm-plugin-info.php:118
+msgid "No. Everything runs inside your WordPress admin and your data stays on your own website."
+msgstr "Non. Tout fonctionne dans votre administration WordPress et vos données restent sur votre propre site."
+
+#: includes/class-codm-plugin-info.php:119
+msgid "Can my confirmation team work without seeing my profit?"
+msgstr "Mon équipe de confirmation peut-elle travailler sans voir mes bénéfices ?"
+
+#: includes/class-codm-plugin-info.php:119
+msgid "Yes. Give them the \"COD Agent\" role: they see the orders to call, confirm and ship, but never revenue, costs, profit or customer exports."
+msgstr "Oui. Donnez-leur le rôle « Agent COD » : ils voient les commandes à appeler, confirmer et expédier, mais jamais le chiffre d'affaires, les coûts, les bénéfices ou les exports clients."
+
+#: includes/class-codm-plugin-info.php:120
+msgid "How is profit calculated?"
+msgstr "Comment le bénéfice est-il calculé ?"
+
+#: includes/class-codm-plugin-info.php:120
+msgid "Revenue from delivered orders, minus the cost price of the products, shipping and return fees, advertising and your other expenses. Fill in the \"Cost price\" field on each product for exact figures."
+msgstr "Chiffre d'affaires des commandes livrées, moins le prix de revient des produits, les frais de livraison et de retour, la publicité et vos autres dépenses. Renseignez le champ « Prix de revient » de chaque produit pour des chiffres exacts."
+
+#: includes/class-codm-plugin-info.php:121
+msgid "How do I know how much my courier owes me?"
+msgstr "Comment savoir combien mon livreur me doit ?"
+
+#: includes/class-codm-plugin-info.php:121
+msgid "Mark orders as Delivered or Returned. The Finance page shows, for each shipping company, the cash collected, its fees and the payout you should receive. Record the payout when the money arrives."
+msgstr "Marquez les commandes comme Livrées ou Retournées. La page Finances affiche, pour chaque société de livraison, l'argent encaissé, ses frais et le versement que vous devez recevoir. Enregistrez le versement quand l'argent arrive."
+
+#: includes/class-codm-plugin-info.php:122
+msgid "Can I print shipping labels?"
+msgstr "Puis-je imprimer des étiquettes d'expédition ?"
+
+#: includes/class-codm-plugin-info.php:122
+msgid "Yes: 10x15 cm thermal labels or A4 sheets with 4 labels, with a barcode, the amount to collect and your store details."
+msgstr "Oui : étiquettes thermiques 10x15 cm ou feuilles A4 de 4 étiquettes, avec code-barres, montant à encaisser et coordonnées de votre boutique."
+
+#: includes/class-codm-plugin-info.php:123
+msgid "Does it help against fake orders?"
+msgstr "Aide-t-elle contre les fausses commandes ?"
+
+#: includes/class-codm-plugin-info.php:123
+msgid "Yes. Customers are recognised by phone number with their history (delivered, refused, cancelled), you can blacklist numbers, block repeat orders of the same product and accept only Moroccan phone numbers at checkout."
+msgstr "Oui. Les clients sont reconnus par leur numéro de téléphone avec leur historique (livrées, refusées, annulées) ; vous pouvez mettre des numéros sur liste noire, bloquer les commandes répétées du même produit et n'accepter que les numéros marocains à la validation."
+
+#: includes/class-codm-plugin-info.php:124
+msgid "Can I contact customers on WhatsApp?"
+msgstr "Puis-je contacter les clients sur WhatsApp ?"
+
+#: includes/class-codm-plugin-info.php:124
+msgid "Yes, in one click from each order, with ready-made messages you can edit (ask to confirm, confirmed, shipped, delivered, failed delivery). Automatic sending needs a WhatsApp API provider add-on."
+msgstr "Oui, en un clic depuis chaque commande, avec des messages prêts à l'emploi que vous pouvez modifier (demande de confirmation, confirmée, expédiée, livrée, échec de livraison). L'envoi automatique nécessite un module de fournisseur d'API WhatsApp."
+
+#: includes/class-codm-plugin-info.php:125
+msgid "Which languages are included?"
+msgstr "Quelles langues sont incluses ?"
+
+#: includes/class-codm-plugin-info.php:125
+msgid "English, French and Arabic. The plugin follows the language of your WordPress admin."
+msgstr "Anglais, français et arabe. L'extension suit la langue de votre administration WordPress."
+
+#: includes/class-codm-plugin-info.php:126
+msgid "Is it compatible with the new WooCommerce order storage (HPOS)?"
+msgstr "Est-elle compatible avec le nouveau stockage des commandes WooCommerce (HPOS) ?"
+
+#: includes/class-codm-plugin-info.php:126
+msgid "Yes, it works with both the classic and the High-Performance Order Storage."
+msgstr "Oui, elle fonctionne avec le stockage classique comme avec le stockage haute performance (HPOS)."
+
+#: includes/class-codm-plugin-info.php:127
+msgid "What happens to my orders if I deactivate the plugin?"
+msgstr "Que deviennent mes commandes si je désactive l'extension ?"
+
+#: includes/class-codm-plugin-info.php:127
+msgid "They are moved to standard WooCommerce statuses so they stay visible, and put back when you activate the plugin again. No emails are sent and stock is not changed."
+msgstr "Elles passent à des statuts WooCommerce standard pour rester visibles, et reprennent leur statut quand vous réactivez l'extension. Aucun e-mail n'est envoyé et le stock n'est pas modifié."
+
+#: includes/class-codm-plugin-info.php:128
+msgid "Is my data deleted when I delete the plugin?"
+msgstr "Mes données sont-elles supprimées quand je supprime l'extension ?"
+
+#: includes/class-codm-plugin-info.php:128
+msgid "No, unless you tick \"Delete all data when the plugin is deleted\" in Settings > General."
+msgstr "Non, sauf si vous cochez « Supprimer toutes les données à la suppression de l'extension » dans Réglages > Général."
+
+#: includes/class-codm-plugin-info.php:129
+msgid "Where can I learn how to use it?"
+msgstr "Où apprendre à l'utiliser ?"
+
+#: includes/class-codm-plugin-info.php:129
+msgid "Watch the video tutorials on the Nid Academy YouTube channel and ask your questions in the Nid Academy community on Skool."
+msgstr "Regardez les tutoriels vidéo sur la chaîne YouTube de Nid Academy et posez vos questions dans la communauté Nid Academy sur Skool."
+
+#: includes/class-codm-plugin-info.php:141
+msgid "Dashboard: net profit, delivery and return rates, orders per status, sales chart and results by source."
+msgstr "Tableau de bord : bénéfice net, taux de livraison et de retour, commandes par statut, graphique des ventes et résultats par source."
+
+#: includes/class-codm-plugin-info.php:142
+msgid "Orders work queue: To call, To ship, With courier and Done, with one-click Confirm, No answer and Cancel."
+msgstr "File de travail des commandes : À appeler, À expédier, Chez le livreur et Terminées, avec Confirmer, Pas de réponse et Annuler en un clic."
+
+#: includes/class-codm-plugin-info.php:143
+msgid "Order panel: next step, customer history, WhatsApp messages and order details."
+msgstr "Fiche de commande : prochaine étape, historique du client, messages WhatsApp et détails de la commande."
+
+#: includes/class-codm-plugin-info.php:144
+msgid "Finance and courier payouts: profit and loss, COD reconciliation, Excel export and PDF report."
+msgstr "Finances et versements des livreurs : compte de résultat, rapprochement COD, export Excel et rapport PDF."
+
+#: includes/class-codm-plugin-info.php:145
+msgid "Printable finance report with your store name."
+msgstr "Rapport financier imprimable au nom de votre boutique."
+
+#: includes/class-codm-plugin-info.php:163
+msgid "COD Manager Pro is made by Nid Academy. These are reviews of Nid Academy on Trustpilot, not of this plugin (snapshot of October 2026)."
+msgstr "COD Manager Pro est conçu par Nid Academy. Voici des avis sur Nid Academy publiés sur Trustpilot, et non sur cette extension (relevé d'octobre 2026)."
+
+#: includes/class-codm-plugin-info.php:164
+#, php-format
+msgid "TrustScore 4.8 out of 5 (Excellent), 70 reviews, 97% five stars."
+msgstr "TrustScore 4,8 sur 5 (Excellent), 70 avis, 97 % de cinq étoiles."
+
+#: includes/class-codm-plugin-info.php:165
+msgid "Learners mostly mention free and detailed lessons, SEO and digital marketing, e-commerce and WordPress, and quick, clear answers to their questions."
+msgstr "Les apprenants citent surtout des cours gratuits et détaillés, le SEO et le marketing digital, l'e-commerce et WordPress, et des réponses rapides et claires à leurs questions."
+
+#: includes/class-codm-plugin-info.php:169
+msgid "Read all reviews on Trustpilot"
+msgstr "Lire tous les avis sur Trustpilot"
+
+#: includes/class-codm-plugin-info.php:181
+msgid "Stop losing money on fake orders, missed calls and couriers who pay late."
+msgstr "Arrêtez de perdre de l'argent avec les fausses commandes, les appels manqués et les livreurs qui paient en retard."
+
+#: includes/class-codm-plugin-info.php:182
+msgid "COD Manager Pro turns your WooCommerce cash-on-delivery orders into one simple daily routine: call, ship, collect. Your team always knows the next step, and you always know your real profit."
+msgstr "COD Manager Pro transforme vos commandes WooCommerce en paiement à la livraison en une routine quotidienne simple : appeler, expédier, encaisser. Votre équipe sait toujours quoi faire ensuite, et vous connaissez toujours votre vrai bénéfice."
+
+#: includes/class-codm-plugin-info.php:183
+msgid "Made for online stores that sell with cash on delivery, from solo sellers to teams of confirmation agents."
+msgstr "Conçu pour les boutiques en ligne qui vendent en paiement à la livraison, du vendeur seul aux équipes d'agents de confirmation."
+
+#: includes/class-codm-plugin-info.php:184
+msgid "Confirm more orders, faster"
+msgstr "Confirmez plus de commandes, plus vite"
+
+#: includes/class-codm-plugin-info.php:186
+msgid "A work queue, not a list."
+msgstr "Une file de travail, pas une liste."
+
+#: includes/class-codm-plugin-info.php:186
+msgid "Four tabs (To call, To ship, With courier, Done) show your team exactly what to do next."
+msgstr "Quatre onglets (À appeler, À expédier, Chez le livreur, Terminées) montrent à votre équipe exactement quoi faire ensuite."
+
+#: includes/class-codm-plugin-info.php:187
+msgid "One click per step."
+msgstr "Un clic par étape."
+
+#: includes/class-codm-plugin-info.php:187
+msgid "Confirm, No answer or Cancel; ship with the courier and tracking number; then mark it Delivered or Returned."
+msgstr "Confirmer, Pas de réponse ou Annuler ; expédier avec le livreur et le numéro de suivi ; puis marquer Livrée ou Retournée."
+
+#: includes/class-codm-plugin-info.php:188
+msgid "Call or WhatsApp in one tap."
+msgstr "Appel ou WhatsApp en un geste."
+
+#: includes/class-codm-plugin-info.php:188
+msgid "Ready-made message templates, notes and the full order history on every order."
+msgstr "Modèles de messages prêts à l'emploi, notes et historique complet sur chaque commande."
+
+#: includes/class-codm-plugin-info.php:189
+msgid "Shipping labels in seconds."
+msgstr "Étiquettes d'expédition en quelques secondes."
+
+#: includes/class-codm-plugin-info.php:189
+msgid "Print 10x15 cm thermal or A4 labels with a barcode, one by one or in bulk."
+msgstr "Imprimez des étiquettes thermiques 10x15 cm ou A4 avec code-barres, une par une ou en lot."
+
+#: includes/class-codm-plugin-info.php:191
+msgid "Know your real profit"
+msgstr "Connaissez votre vrai bénéfice"
+
+#: includes/class-codm-plugin-info.php:193
+msgid "Profit on every order."
+msgstr "Le bénéfice de chaque commande."
+
+#: includes/class-codm-plugin-info.php:193
+msgid "Add a cost price to each product and variation. Ads, packaging and salaries are counted as expenses."
+msgstr "Ajoutez un prix de revient à chaque produit et variation. Publicité, emballage et salaires sont comptés comme dépenses."
+
+#: includes/class-codm-plugin-info.php:194
+msgid "Follow the courier money."
+msgstr "Suivez l'argent des livreurs."
+
+#: includes/class-codm-plugin-info.php:194
+msgid "See what each shipping company still owes you, the payouts you received and any difference."
+msgstr "Voyez ce que chaque société de livraison vous doit encore, les versements reçus et les écarts."
+
+#: includes/class-codm-plugin-info.php:195
+msgid "Reports you can share."
+msgstr "Des rapports à partager."
+
+#: includes/class-codm-plugin-info.php:195
+msgid "Export to Excel or print a clean PDF report with your store name."
+msgstr "Exportez vers Excel ou imprimez un rapport PDF soigné au nom de votre boutique."
+
+#: includes/class-codm-plugin-info.php:197
+msgid "Block fake orders before they cost you"
+msgstr "Bloquez les fausses commandes avant qu'elles vous coûtent"
+
+#: includes/class-codm-plugin-info.php:199
+msgid "Every customer remembered."
+msgstr "Chaque client mémorisé."
+
+#: includes/class-codm-plugin-info.php:199
+msgid "Customers are recognised by phone number, with their delivered, refused and cancelled orders and a risk level."
+msgstr "Les clients sont reconnus par leur numéro de téléphone, avec leurs commandes livrées, refusées et annulées et un niveau de risque."
+
+#: includes/class-codm-plugin-info.php:200
+msgid "Blacklist and checkout checks."
+msgstr "Liste noire et contrôles au paiement."
+
+#: includes/class-codm-plugin-info.php:200
+msgid "Refuse blacklisted numbers, repeat orders of the same product or non-Moroccan numbers. Each check is optional."
+msgstr "Refusez les numéros sur liste noire, les commandes répétées du même produit ou les numéros non marocains. Chaque contrôle est optionnel."
+
+#: includes/class-codm-plugin-info.php:201
+msgid "Duplicate alerts."
+msgstr "Alertes de doublons."
+
+#: includes/class-codm-plugin-info.php:201
+msgid "Spot a customer who ordered twice before you ship twice."
+msgstr "Repérez un client qui a commandé deux fois avant d'expédier deux fois."
+
+#: includes/class-codm-plugin-info.php:203
+msgid "Built for teams"
+msgstr "Pensé pour les équipes"
+
+#: includes/class-codm-plugin-info.php:205
+msgid "COD Agent role."
+msgstr "Rôle Agent COD."
+
+#: includes/class-codm-plugin-info.php:205
+msgid "Agents confirm orders without seeing revenue, costs or customer exports."
+msgstr "Les agents confirment les commandes sans voir le chiffre d'affaires, les coûts ni les exports clients."
+
+#: includes/class-codm-plugin-info.php:206
+msgid "See which ads bring real sales."
+msgstr "Voyez quelles publicités apportent de vraies ventes."
+
+#: includes/class-codm-plugin-info.php:206
+msgid "Every order shows where it came from (Facebook Ads, Instagram, TikTok Ads, Google, Direct...), with confirmed and delivered orders per source."
+msgstr "Chaque commande indique sa provenance (Facebook Ads, Instagram, TikTok Ads, Google, Direct...), avec les commandes confirmées et livrées par source."
+
+#: includes/class-codm-plugin-info.php:207
+msgid "Your day at a glance."
+msgstr "Votre journée en un coup d'œil."
+
+#: includes/class-codm-plugin-info.php:207
+msgid "A status box on the WordPress Dashboard shows what is waiting."
+msgstr "Un encadré sur le Tableau de bord WordPress montre ce qui attend."
+
+#: includes/class-codm-plugin-info.php:208
+msgid "Speaks your language."
+msgstr "Parle votre langue."
+
+#: includes/class-codm-plugin-info.php:208
+msgid "English, French and Arabic included."
+msgstr "Anglais, français et arabe inclus."
+
+#: includes/class-codm-plugin-info.php:210
+msgid "Made by Nid Academy"
+msgstr "Créé par Nid Academy"
+
+#: includes/class-codm-plugin-info.php:211
+msgid "Learn to set it up and grow your store with our free video tutorials and our community:"
+msgstr "Apprenez à le configurer et à développer votre boutique avec nos tutoriels vidéo gratuits et notre communauté :"
+
+#: includes/class-codm-plugin-info.php:217
+msgid "Plugins > Add New > Upload Plugin, choose the zip file, then Activate. WooCommerce must be active."
+msgstr "Extensions > Ajouter > Téléverser une extension, choisissez le fichier zip, puis Activer. WooCommerce doit être actif."
+
+#: includes/class-codm-plugin-info.php:218
+msgid "COD Manager Pro > Settings > Shipping companies: add your couriers with their delivery and return fees, and choose a default company."
+msgstr "COD Manager Pro > Réglages > Sociétés de livraison : ajoutez vos livreurs avec leurs frais de livraison et de retour, et choisissez une société par défaut."
+
+#: includes/class-codm-plugin-info.php:219
+msgid "Products: fill in \"Cost price\" on each product so profit is calculated."
+msgstr "Produits : renseignez le « Prix de revient » de chaque produit pour calculer le bénéfice."
+
+#: includes/class-codm-plugin-info.php:220
+msgid "Settings > General: store phone and address (printed on shipping labels)."
+msgstr "Réglages > Général : téléphone et adresse de la boutique (imprimés sur les étiquettes)."
+
+#: includes/class-codm-plugin-info.php:221
+msgid "Settings > Tools: import your recent WooCommerce orders."
+msgstr "Réglages > Outils : importez vos commandes WooCommerce récentes."
+
+#: includes/class-codm-plugin-info.php:222
+msgid "Users: give confirmation agents the \"COD Agent\" role."
+msgstr "Utilisateurs : donnez le rôle « Agent COD » à vos agents de confirmation."
+
+#: includes/class-codm-plugin-info.php:226
+msgid "Learn the plugin step by step and get help from other sellers:"
+msgstr "Apprenez l'extension étape par étape et obtenez de l'aide d'autres vendeurs :"
+
+#: includes/class-codm-plugin-info.php:228
+msgid "Video Tutorials on YouTube"
+msgstr "Tutoriels vidéo sur YouTube"
+
+#: includes/class-codm-plugin-info.php:229
+msgid "Nid Academy community on Skool"
+msgstr "Communauté Nid Academy sur Skool"
+
+#: includes/class-codm-plugin-info.php:266
+msgid "First release of COD Manager Pro."
+msgstr "Première version de COD Manager Pro."
+
+#: includes/class-codm-plugin-info.php:35
+msgid "(based on 70 Trustpilot reviews of Nid Academy)"
+msgstr "(d'après 70 avis Trustpilot sur Nid Academy)"
+
+#: includes/class-codm-plugin-info.php:36
+msgid "Reviews of Nid Academy on Trustpilot. Read them all or write your own!"
+msgstr "Avis sur Nid Academy sur Trustpilot. Lisez-les tous ou écrivez le vôtre !"
+
+#. translators: %s: author name linked to the author website
+#: includes/class-codm-plugin-info.php:94
+#, php-format
+msgid "By %s"
+msgstr "Par %s"
+
+#. translators: %s: author name linked to the author website
+#: includes/class-codm-plugin-info.php:95
+msgid "More information about COD Manager Pro"
+msgstr "Plus d'informations sur COD Manager Pro"
+
+#. translators: %s: author name linked to the author website
+#: includes/class-codm-plugin-info.php:95
+msgid "View details"
+msgstr "Voir les détails"
+
+#: includes/class-codm-plugin-info.php:96 includes/class-codm-plugin-info.php:213
+msgid "Skool Community"
+msgstr "Communauté Skool"
+
+#: includes/class-codm-plugin-info.php:97 includes/class-codm-plugin-info.php:212
+msgid "Video Tutorials"
+msgstr "Tutoriels vidéo"
+
+#. translators: %s currency
+#: includes/class-codm-products.php:22 includes/class-codm-products.php:40
+#, php-format
+msgid "Cost price (%s)"
+msgstr "Prix de revient (%s)"
+
+#. translators: %s currency
+#: includes/class-codm-products.php:24
+msgid "What one unit costs you. COD Manager Pro uses it to calculate profit."
+msgstr "Ce que vous coûte une unité. COD Manager Pro l'utilise pour calculer le bénéfice."
+
+#: includes/class-codm-rest.php:158
+msgid "Write a note before saving."
+msgstr "Écrivez une note avant d'enregistrer."
+
+#: includes/class-codm-rest.php:173
+msgid "Select orders and a status."
+msgstr "Sélectionnez des commandes et un statut."
+
+#: includes/class-codm-rest.php:177
+msgid "Only a manager can mark several orders as delivered or returned at once."
+msgstr "Seul un responsable peut marquer plusieurs commandes comme livrées ou retournées en une fois."
+
+#: includes/class-codm-rest.php:182
+msgid "Bulk update"
+msgstr "Modification groupée"
+
+#: includes/class-codm-rest.php:195
+msgid "Customer not found."
+msgstr "Client introuvable."
+
+#. translators: %s reason
+#: includes/class-codm-rest.php:207
+#, php-format
+msgid "Customer blacklisted. %s"
+msgstr "Client mis en liste noire. %s"
+
+#: includes/class-codm-roles.php:18
+msgid "COD Agent"
+msgstr "Agent COD"
+
+#: includes/class-codm-settings.php:17
+msgid "General"
+msgstr "Général"
+
+#: includes/class-codm-settings.php:18 includes/views/settings.php:86
+msgid "Shipping companies"
+msgstr "Sociétés de livraison"
+
+#: includes/class-codm-settings.php:19
+msgid "Customers & risk"
+msgstr "Clients et risques"
+
+#: includes/class-codm-settings.php:20
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: includes/class-codm-settings.php:21
+msgid "Tools"
+msgstr "Outils"
+
+#: includes/class-codm-status.php:35
+msgid "New"
+msgstr "Nouvelle"
+
+#: includes/class-codm-status.php:36
+msgid "Pending confirmation"
+msgstr "En attente de confirmation"
+
+#: includes/class-codm-status.php:38
+msgid "Processing"
+msgstr "En cours de traitement"
+
+#: includes/class-codm-status.php:39
+msgid "Ready to ship"
+msgstr "Prête à expédier"
+
+#: includes/class-codm-status.php:41
+msgid "Out for delivery"
+msgstr "En cours de livraison"
+
+#: includes/class-codm-status.php:94
+msgctxt "Order status"
+msgid "Awaiting confirmation"
+msgstr "En attente de confirmation"
+
+#: includes/class-codm-status.php:95
+msgctxt "Order status"
+msgid "Ready to ship"
+msgstr "Prête à expédier"
+
+#: includes/class-codm-status.php:96
+msgctxt "Order status"
+msgid "Shipped"
+msgstr "Expédiée"
+
+#: includes/class-codm-status.php:97
+msgctxt "Order status"
+msgid "Out for delivery"
+msgstr "En cours de livraison"
+
+#: includes/class-codm-status.php:98
+msgctxt "Order status"
+msgid "Returned / refused"
+msgstr "Retournée / refusée"
+
+#: includes/class-codm-sync.php:224
+msgid "Imported from WooCommerce"
+msgstr "Importée depuis WooCommerce"
+
+#: includes/class-codm-sync.php:224
+msgid "Order received"
+msgstr "Commande reçue"
+
+#. translators: %s: WooCommerce status name
+#: includes/class-codm-sync.php:250
+#, php-format
+msgid "WooCommerce status changed to %s"
+msgstr "Statut WooCommerce changé en %s"
+
+#. translators: %s error
+#: includes/class-codm-whatsapp.php:116
+#, php-format
+msgid "WhatsApp message failed: %s"
+msgstr "Échec du message WhatsApp : %s"
+
+#. translators: %s template name
+#: includes/class-codm-whatsapp.php:118
+#, php-format
+msgid "WhatsApp message sent: %s"
+msgstr "Message WhatsApp envoyé : %s"
+
+#: includes/class-codm-whatsapp.php:16
+msgid "Ask to confirm the order"
+msgstr "Demander de confirmer la commande"
+
+#: includes/class-codm-whatsapp.php:17
+msgid "Order confirmed"
+msgstr "Commande confirmée"
+
+#: includes/class-codm-whatsapp.php:18
+msgid "Order shipped"
+msgstr "Commande expédiée"
+
+#: includes/class-codm-whatsapp.php:19
+msgid "Order delivered"
+msgstr "Commande livrée"
+
+#: includes/class-codm-whatsapp.php:20
+msgid "Failed delivery"
+msgstr "Échec de livraison"
+
+#: includes/views/dashboard.php:10
+msgid "Bring in your orders"
+msgstr "Récupérez vos commandes"
+
+#: includes/views/dashboard.php:100
+msgid "Where your orders come from, and which sources confirm and get delivered"
+msgstr "D'où viennent vos commandes, et quelles sources confirment et sont livrées"
+
+#: includes/views/dashboard.php:107
+msgid "Recent orders"
+msgstr "Commandes récentes"
+
+#: includes/views/dashboard.php:108
+msgid "All orders"
+msgstr "Toutes les commandes"
+
+#: includes/views/dashboard.php:11
+msgid "New WooCommerce orders appear here automatically. To see your history right away, import the orders from the last 90 days."
+msgstr "Les nouvelles commandes WooCommerce s'affichent ici automatiquement. Pour voir votre historique tout de suite, importez les commandes des 90 derniers jours."
+
+#: includes/views/dashboard.php:114
+msgid "Quick actions"
+msgstr "Actions rapides"
+
+#: includes/views/dashboard.php:116
+msgid "Confirm new orders"
+msgstr "Confirmer les nouvelles commandes"
+
+#: includes/views/dashboard.php:117
+msgid "Orders ready to ship"
+msgstr "Commandes prêtes à expédier"
+
+#: includes/views/dashboard.php:118
+msgid "Record a courier payout"
+msgstr "Enregistrer un versement livreur"
+
+#: includes/views/dashboard.php:119
+msgid "Add ad spend"
+msgstr "Ajouter des dépenses pub"
+
+#: includes/views/dashboard.php:121
+msgid "Low stock"
+msgstr "Stock faible"
+
+#: includes/views/dashboard.php:18
+msgid "Import last 90 days"
+msgstr "Importer les 90 derniers jours"
+
+#: includes/views/dashboard.php:19
+msgid "Add your shipping companies"
+msgstr "Ajoutez vos sociétés de livraison"
+
+#: includes/views/dashboard.php:28
+msgid "Finish setting up"
+msgstr "Terminez la configuration"
+
+#. translators: %d steps
+#: includes/views/dashboard.php:28
+#, php-format
+msgid "%d step left"
+msgid_plural "%d steps left"
+msgstr[0] "%d étape restante"
+msgstr[1] "%d étapes restantes"
+
+#. translators: %d steps
+#: includes/views/dashboard.php:29
+msgid "Until these are done, profit, payouts and labels are incomplete."
+msgstr "Tant que ce n'est pas fait, le bénéfice, les versements et les étiquettes sont incomplets."
+
+#: includes/views/dashboard.php:32
+msgid "Fix"
+msgstr "Corriger"
+
+#: includes/views/dashboard.php:40
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: includes/views/dashboard.php:41 includes/views/finance.php:20
+msgid "7 days"
+msgstr "7 jours"
+
+#: includes/views/dashboard.php:42 includes/views/finance.php:21
+msgid "30 days"
+msgstr "30 jours"
+
+#: includes/views/dashboard.php:44 includes/views/finance.php:23
+msgid "Last month"
+msgstr "Mois dernier"
+
+#: includes/views/dashboard.php:45 includes/views/finance.php:24
+msgid "90 days"
+msgstr "90 jours"
+
+#: includes/views/dashboard.php:48 includes/views/finance.php:44
+msgid "From"
+msgstr "Du"
+
+#: includes/views/dashboard.php:50 includes/views/finance.php:46
+msgid "To"
+msgstr "Au"
+
+#: includes/views/dashboard.php:62
+msgid "Delivery success"
+msgstr "Livraisons réussies"
+
+#: includes/views/dashboard.php:69
+msgid "Total orders"
+msgstr "Total commandes"
+
+#: includes/views/dashboard.php:70
+msgid "Pending"
+msgstr "En attente"
+
+#: includes/views/dashboard.php:76
+msgid "COD to collect from couriers"
+msgstr "COD à récupérer auprès des livreurs"
+
+#: includes/views/dashboard.php:82
+msgid "Sales"
+msgstr "Ventes"
+
+#: includes/views/dashboard.php:83
+msgid "Group by"
+msgstr "Grouper par"
+
+#: includes/views/dashboard.php:84
+msgid "Daily"
+msgstr "Jour"
+
+#: includes/views/dashboard.php:85
+msgid "Weekly"
+msgstr "Semaine"
+
+#: includes/views/dashboard.php:86
+msgid "Monthly"
+msgstr "Mois"
+
+#: includes/views/dashboard.php:93 includes/views/orders.php:7
+msgid "Order status"
+msgstr "Statut des commandes"
+
+#: includes/views/dashboard.php:99
+msgid "Results by source"
+msgstr "Résultats par source"
+
+#. translators: 1 delivered 2 returned
+#: includes/views/finance.php:104
+#, php-format
+msgid "%1$d delivered, %2$d returned"
+msgstr "%1$d livrées, %2$d retournées"
+
+#: includes/views/finance.php:110
+msgid "These orders have no shipping company. Assign one from the Orders screen to settle them."
+msgstr "Ces commandes n'ont pas de société de livraison. Attribuez-en une depuis l'écran Commandes pour les régler."
+
+#: includes/views/finance.php:125
+msgid "Net"
+msgstr "Net"
+
+#: includes/views/finance.php:148
+msgid "Amount received"
+msgstr "Montant reçu"
+
+#: includes/views/finance.php:149
+msgid "Transfer date"
+msgstr "Date du virement"
+
+#: includes/views/finance.php:150
+msgid "Bank transfer ref."
+msgstr "Réf. du virement"
+
+#: includes/views/finance.php:152
+msgid "Record payout"
+msgstr "Enregistrer le versement"
+
+#: includes/views/finance.php:160
+msgid "Payout history"
+msgstr "Historique des versements"
+
+#: includes/views/finance.php:162
+msgid "No payouts recorded yet."
+msgstr "Aucun versement enregistré pour l'instant."
+
+#. translators: %s currency
+#: includes/views/finance.php:206
+#, php-format
+msgid "Amount (%s)"
+msgstr "Montant (%s)"
+
+#: includes/views/finance.php:208
+msgid "e.g. Facebook ads – campaign Ramadan"
+msgstr "ex. Facebook Ads – campagne Ramadan"
+
+#: includes/views/finance.php:209
+msgid "Add expense"
+msgstr "Ajouter la dépense"
+
+#: includes/views/finance.php:220
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/views/finance.php:229
+msgid "Delete this expense?"
+msgstr "Supprimer cette dépense ?"
+
+#: includes/views/finance.php:229
+msgid "Delete"
+msgstr "Supprimer"
+
+#. translators: 1: shown 2: total
+#: includes/views/finance.php:239
+#, php-format
+msgid "Showing the latest %1$d of %2$d expenses. Totals and the Excel/PDF export include all of them."
+msgstr "Affichage des %1$d dernières dépenses sur %2$d. Les totaux et l'export Excel/PDF les incluent toutes."
+
+#. translators: 1: shown 2: total
+#: includes/views/finance.php:244
+msgid "No expenses in this period. Add your ad spend to see real net profit."
+msgstr "Aucune dépense sur cette période. Ajoutez vos dépenses pub pour voir le vrai bénéfice net."
+
+#: includes/views/finance.php:251
+msgid "Delivered and returned orders from this period will appear here."
+msgstr "Les commandes livrées et retournées de cette période s'afficheront ici."
+
+#: includes/views/finance.php:279
+msgid "No cost price on this product yet"
+msgstr "Pas encore de prix de revient pour ce produit"
+
+#: includes/views/finance.php:279
+msgid "Missing"
+msgstr "Manquant"
+
+#: includes/views/finance.php:47
+msgid "Apply"
+msgstr "Appliquer"
+
+#: includes/views/finance.php:50
+msgid "Export Excel"
+msgstr "Exporter Excel"
+
+#: includes/views/finance.php:51
+msgid "PDF report"
+msgstr "Rapport PDF"
+
+#: includes/views/finance.php:62
+msgid "No delivered orders in this period yet."
+msgstr "Aucune commande livrée sur cette période pour l'instant."
+
+#. translators: %s margin percentage
+#: includes/views/finance.php:64
+#, php-format
+msgid "%s%% net margin on delivered revenue"
+msgstr "%s%% de marge nette sur le CA livré"
+
+#: includes/views/finance.php:90
+msgid "Orders count by the date they were placed; expenses and payouts by their own date. Product costs come from the \"Cost price\" field on each WooCommerce product."
+msgstr "Les commandes sont comptées à leur date de passage ; les dépenses et les versements à leur propre date. Les coûts produits viennent du champ « Prix de revient » de chaque produit WooCommerce."
+
+#: includes/views/finance.php:94
+msgid "COD reconciliation"
+msgstr "Rapprochement COD"
+
+#: includes/views/finance.php:95
+msgid "Delivered and returned orders not yet settled with the courier. Expected payout = COD collected − shipping fees − return fees."
+msgstr "Commandes livrées et retournées pas encore réglées avec le livreur. Versement prévu = COD encaissé − frais de livraison − frais de retour."
+
+#: includes/views/finance.php:97
+msgid "Every delivered order is settled. New ones appear here once marked Delivered or Returned."
+msgstr "Toutes les commandes livrées sont réglées. Les nouvelles apparaissent ici une fois marquées Livrée ou Retournée."
+
+#: includes/views/orders.php:10
+msgid "Search order, name, phone, city or tracking"
+msgstr "Rechercher commande, nom, téléphone, ville ou suivi"
+
+#: includes/views/orders.php:10
+msgid "Search orders"
+msgstr "Rechercher des commandes"
+
+#: includes/views/orders.php:11
+msgid "All cities"
+msgstr "Toutes les villes"
+
+#: includes/views/orders.php:12
+msgid "All sources"
+msgstr "Toutes les sources"
+
+#: includes/views/orders.php:13
+msgid "All companies"
+msgstr "Toutes les sociétés"
+
+#: includes/views/orders.php:14
+msgid "From date"
+msgstr "Date de début"
+
+#: includes/views/orders.php:15
+msgid "To date"
+msgstr "Date de fin"
+
+#: includes/views/orders.php:18
+msgid "Export CSV"
+msgstr "Exporter CSV"
+
+#: includes/views/orders.php:24
+msgid "New status"
+msgstr "Nouveau statut"
+
+#: includes/views/orders.php:25
+msgid "Change status"
+msgstr "Changer le statut"
+
+#: includes/views/orders.php:26
+msgid "Print labels"
+msgstr "Imprimer les étiquettes"
+
+#: includes/views/orders.php:28
+msgid "Export selected"
+msgstr "Exporter la sélection"
+
+#: includes/views/orders.php:30
+msgid "Clear selection"
+msgstr "Vider la sélection"
+
+#: includes/views/settings.php:102
+msgid "New company name"
+msgstr "Nom de la nouvelle société"
+
+#: includes/views/settings.php:112
+msgid "Save"
+msgstr "Enregistrer"
+
+#: includes/views/settings.php:112
+msgid "Add company"
+msgstr "Ajouter la société"
+
+#: includes/views/settings.php:123
+msgid "Defaults for new orders"
+msgstr "Valeurs par défaut des nouvelles commandes"
+
+#: includes/views/settings.php:125
+msgid "Default shipping company"
+msgstr "Société de livraison par défaut"
+
+#: includes/views/settings.php:127
+msgid "None"
+msgstr "Aucune"
+
+#: includes/views/settings.php:138
+msgid "Refuse cash on delivery for blacklisted phone numbers"
+msgstr "Refuser le paiement à la livraison pour les numéros en liste noire"
+
+#: includes/views/settings.php:139
+msgid "Blacklist a customer from the order details panel on the Orders screen."
+msgstr "Mettez un client en liste noire depuis le panneau de détails de la commande, dans l'écran Commandes."
+
+#: includes/views/settings.php:142
+msgid "Mark a customer as high risk after"
+msgstr "Marquer un client à risque élevé après"
+
+#: includes/views/settings.php:143
+msgid "refused deliveries"
+msgstr "livraisons refusées"
+
+#: includes/views/settings.php:146
+msgid "Refuse a repeat order of the same product from the same phone within"
+msgstr "Refuser une nouvelle commande du même produit avec le même téléphone pendant"
+
+#: includes/views/settings.php:147
+msgid "hours"
+msgstr "heures"
+
+#: includes/views/settings.php:148
+msgid "Stops double orders (double clicks, impatient customers): the same phone cannot order the same product again within this many hours. 0 = off."
+msgstr "Évite les commandes en double (double clics, clients impatients) : le même téléphone ne peut pas recommander le même produit pendant ce nombre d'heures. 0 = désactivé."
+
+#: includes/views/settings.php:151
+msgid "Only accept valid Moroccan phone numbers (05, 06, 07 + 8 digits)"
+msgstr "N'accepter que les numéros marocains valides (05, 06, 07 + 8 chiffres)"
+
+#: includes/views/settings.php:152
+msgid "Blocks fake or mistyped numbers at checkout. Leave off if you deliver outside Morocco."
+msgstr "Bloque les numéros faux ou mal saisis au paiement. Laissez désactivé si vous livrez hors du Maroc."
+
+#: includes/views/settings.php:159
+msgid "Tags you can use: {name} {order} {products} {total} {city} {address} {store} {company} {tracking}"
+msgstr "Balises disponibles : {name} {order} {products} {total} {city} {address} {store} {company} {tracking}"
+
+#: includes/views/settings.php:166
+msgid "Automatic messages"
+msgstr "Messages automatiques"
+
+#: includes/views/settings.php:168
+msgid "Messages open in WhatsApp with one click from each order. Automatic sending needs a WhatsApp API provider add-on (for example WhatsApp Cloud API), which plugs into COD Manager Pro through the codm_whatsapp_providers filter."
+msgstr "Les messages s'ouvrent dans WhatsApp en un clic depuis chaque commande. L'envoi automatique nécessite une extension de fournisseur API WhatsApp (par exemple WhatsApp Cloud API), qui se branche sur COD Manager Pro via le filtre codm_whatsapp_providers."
+
+#: includes/views/settings.php:17
+msgid "Save settings"
+msgstr "Enregistrer les réglages"
+
+#: includes/views/settings.php:172
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: includes/views/settings.php:174
+msgid "Manual (click to chat)"
+msgstr "Manuel (clic pour discuter)"
+
+#: includes/views/settings.php:181
+msgid "Send automatically when an order is confirmed, shipped, delivered or returned"
+msgstr "Envoyer automatiquement quand une commande est confirmée, expédiée, livrée ou retournée"
+
+#: includes/views/settings.php:188
+msgid "Import WooCommerce orders"
+msgstr "Importer les commandes WooCommerce"
+
+#: includes/views/settings.php:189
+msgid "Adds orders that are not in COD Manager Pro yet. Their status is taken from WooCommerce."
+msgstr "Ajoute les commandes qui ne sont pas encore dans COD Manager Pro. Leur statut est repris de WooCommerce."
+
+#: includes/views/settings.php:193
+msgid "From the last"
+msgstr "Sur les derniers"
+
+#: includes/views/settings.php:196
+msgid "days"
+msgstr "jours"
+
+#: includes/views/settings.php:197
+msgid "Import orders"
+msgstr "Importer les commandes"
+
+#: includes/views/settings.php:202
+msgid "Recalculate product costs"
+msgstr "Recalculer les coûts produits"
+
+#: includes/views/settings.php:203
+msgid "After adding or changing cost prices on your products, update open orders and fill in delivered orders that had no cost yet."
+msgstr "Après avoir ajouté ou modifié les prix de revient de vos produits, mettez à jour les commandes en cours et complétez les commandes livrées qui n'avaient pas encore de coût."
+
+#: includes/views/settings.php:207
+msgid "Recalculate costs"
+msgstr "Recalculer les coûts"
+
+#: includes/views/settings.php:212
+msgid "Team"
+msgstr "Équipe"
+
+#: includes/views/settings.php:213
+msgid "Give confirmation agents the \"COD Agent\" role. They only see the Orders screen, without revenue, costs or profit. Shop managers see everything except Settings."
+msgstr "Donnez le rôle « Agent COD » aux agents de confirmation. Ils ne voient que l'écran Commandes, sans chiffre d'affaires, coûts ni bénéfice. Les gestionnaires de boutique voient tout sauf les Réglages."
+
+#: includes/views/settings.php:214
+msgid "Add a team member"
+msgstr "Ajouter un membre de l'équipe"
+
+#: includes/views/settings.php:23
+msgid "Settings sections"
+msgstr "Sections des réglages"
+
+#: includes/views/settings.php:32
+msgid "Country calling code"
+msgstr "Indicatif téléphonique du pays"
+
+#: includes/views/settings.php:34
+msgid "Turns local numbers like 0612345678 into 212612345678 for WhatsApp links and duplicate detection."
+msgstr "Transforme les numéros locaux comme 0612345678 en 212612345678 pour les liens WhatsApp et la détection des doublons."
+
+#: includes/views/settings.php:37
+msgid "Currency label"
+msgstr "Libellé de la devise"
+
+#: includes/views/settings.php:39
+msgid "Shown after amounts in COD Manager Pro, e.g. DH or MAD."
+msgstr "Affiché après les montants dans COD Manager Pro, ex. DH ou MAD."
+
+#: includes/views/settings.php:41
+msgid "Shipping labels"
+msgstr "Étiquettes d'expédition"
+
+#: includes/views/settings.php:42
+msgid "Printed in the sender block, so the courier knows where to bring returns."
+msgstr "Imprimé dans le bloc expéditeur, pour que le livreur sache où rapporter les retours."
+
+#: includes/views/settings.php:44
+msgid "Sender phone"
+msgstr "Téléphone de l'expéditeur"
+
+#: includes/views/settings.php:48
+msgid "Sender city"
+msgstr "Ville de l'expéditeur"
+
+#: includes/views/settings.php:49
+msgid "Casablanca"
+msgstr "Casablanca"
+
+#: includes/views/settings.php:52
+msgid "Sender address (optional)"
+msgstr "Adresse de l'expéditeur (facultative)"
+
+#: includes/views/settings.php:56
+msgid "Customers may open the parcel before paying (default for new orders)"
+msgstr "Les clients peuvent ouvrir le colis avant de payer (par défaut pour les nouvelles commandes)"
+
+#: includes/views/settings.php:57
+msgid "Printed on every label. You can change it per order in the order panel."
+msgstr "Imprimé sur chaque étiquette. Vous pouvez le modifier par commande dans le panneau de la commande."
+
+#: includes/views/settings.php:60
+msgid "Mark all parcels as fragile"
+msgstr "Marquer tous les colis comme fragiles"
+
+#: includes/views/settings.php:64
+msgid "Put new cash-on-delivery orders in \"Awaiting confirmation\" in WooCommerce"
+msgstr "Mettre les nouvelles commandes en paiement à la livraison en « En attente de confirmation » dans WooCommerce"
+
+#: includes/views/settings.php:65
+msgid "Recommended. Orders only move to Processing once your team confirms them."
+msgstr "Recommandé. Les commandes ne passent en Traitement qu'une fois confirmées par votre équipe."
+
+#: includes/views/settings.php:68
+msgid "Only manage cash-on-delivery orders (ignore card payments)"
+msgstr "Ne gérer que les commandes en paiement à la livraison (ignorer les paiements par carte)"
+
+#: includes/views/settings.php:71
+msgid "Low-stock alert at"
+msgstr "Alerte de stock faible à"
+
+#: includes/views/settings.php:72
+msgid "units or fewer"
+msgstr "unités ou moins"
+
+#: includes/views/settings.php:75
+msgid "Delete all COD Manager Pro data when the plugin is deleted"
+msgstr "Supprimer toutes les données de COD Manager Pro à la suppression de l'extension"
+
+#: includes/views/settings.php:76
+msgid "Leave this off unless you are sure. Deactivating the plugin never deletes data."
+msgstr "Laissez désactivé sauf si vous êtes sûr. Désactiver l'extension ne supprime jamais les données."
+
+#: includes/views/settings.php:87
+msgid "Add each courier you work with and what they charge you. These fees are used for profit and COD reconciliation."
+msgstr "Ajoutez chaque livreur avec lequel vous travaillez et ce qu'il vous facture. Ces frais servent au calcul du bénéfice et au rapprochement COD."
+
+#. translators: %s currency
+#: includes/views/settings.php:93
+#, php-format
+msgid "Delivery fee (%s)"
+msgstr "Frais de livraison (%s)"
+
+#. translators: %s currency
+#: includes/views/settings.php:95 includes/views/settings.php:106
+msgid "Active"
+msgstr "Active"

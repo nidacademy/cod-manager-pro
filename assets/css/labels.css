@@ -1,0 +1,93 @@
+/* COD Manager Pro – universal shipping label.
+   Pure black on white: prints cleanly on thermal (203 dpi) and laser printers. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: #fff; }
+body {
+	font-family: "Inter", "Noto Sans Arabic", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+	color: #000; -webkit-print-color-adjust: exact; print-color-adjust: exact;
+	font-feature-settings: "tnum" 1;
+}
+[lang="ar"], [dir="rtl"] { font-family: "Noto Sans Arabic", "Inter", sans-serif; }
+
+/* ---------- Sheets ---------- */
+.sheet--thermal .lbl { width: 100mm; height: 150mm; page-break-after: always; break-after: page; }
+.sheet--a4 { display: grid; grid-template-columns: 105mm 105mm; grid-auto-rows: 148.5mm; }
+.sheet--a4 .lbl { width: 105mm; height: 148.5mm; outline: .2mm dashed #000; outline-offset: -.1mm; }
+.sheet--a4 .lbl:nth-child(4n) { page-break-after: always; break-after: page; }
+
+/* ---------- Label frame ---------- */
+.lbl { display: flex; flex-direction: column; padding: 4mm; overflow: hidden; }
+.lbl > * + * { border-top: .6mm solid #000; }
+.lbl-k { font-size: 6.8pt; font-weight: 600; line-height: 1.2; }
+.lbl-k [lang="ar"] { font-weight: 700; margin-left: 1mm; }
+.lbl-k--split { display: flex; justify-content: space-between; gap: 2mm; }
+.lbl-k--split [lang="ar"] { margin-left: 0; }
+
+/* Sender */
+.lbl-from { display: flex; justify-content: space-between; align-items: flex-start; gap: 3mm; padding-bottom: 2.5mm; }
+.lbl-from-main { display: flex; align-items: center; gap: 2.5mm; min-width: 0; }
+.lbl-from-main img { max-height: 10mm; max-width: 20mm; object-fit: contain; filter: grayscale(1) contrast(1.4); }
+.lbl-from-text { display: flex; flex-direction: column; min-width: 0; }
+.lbl-from-text strong { font-size: 10.5pt; font-weight: 800; line-height: 1.2; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lbl-from-text > span:not(.lbl-k) { font-size: 7.5pt; line-height: 1.3; }
+.lbl-from-addr { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 62mm; }
+.lbl-courier { flex: 0 0 auto; background: #000; color: #fff; font-weight: 800; font-size: 10pt; padding: 1.3mm 3mm; border-radius: 99mm; white-space: nowrap; margin-top: 1mm; }
+
+/* Recipient */
+.lbl-to { padding: 2.5mm 0; }
+.lbl-city { font-size: 24pt; font-weight: 800; line-height: 1.05; letter-spacing: -.02em; text-transform: uppercase; overflow-wrap: anywhere; margin-top: .5mm; }
+.lbl-addr { font-size: 9.5pt; line-height: 1.3; margin-top: 1mm; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.lbl-person { display: flex; justify-content: space-between; align-items: baseline; gap: 3mm; margin-top: 2mm; }
+.lbl-name { font-size: 11.5pt; font-weight: 700; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lbl-phone { font-size: 13pt; font-weight: 800; white-space: nowrap; letter-spacing: .02em; }
+
+/* Amount to collect */
+.lbl-cod { background: #000; color: #fff; padding: 2mm 3mm 2.5mm; margin: 0 -4mm; border-top: 0 !important; }
+.lbl-amount { font-size: 26pt; font-weight: 800; line-height: 1; letter-spacing: -.02em; margin-top: .8mm; }
+.lbl-amount small { font-size: 13pt; font-weight: 700; margin-left: 1mm; letter-spacing: 0; }
+.lbl-cod--paid { background: #fff; color: #000; margin: 0; border-top: .6mm solid #000 !important; padding-left: 0; padding-right: 0; }
+
+/* Facts grid: opening, parcels, weight, fragile */
+.lbl-facts { display: flex; border-top: 0 !important; }
+.lbl-fact { flex: 1 1 0; padding: 1.6mm 2mm; border-right: .35mm solid #000; display: flex; flex-direction: column; gap: .4mm; }
+.lbl-fact:first-child { padding-left: 0; }
+.lbl-fact:last-child { border-right: 0; }
+.lbl-fact b { font-size: 10pt; font-weight: 800; line-height: 1.1; white-space: nowrap; }
+.lbl-fact.is-alert { background: #000; color: #fff; padding-left: 2mm; }
+.lbl-facts { border-bottom: .6mm solid #000; }
+
+/* Contents */
+.lbl-items { flex: 1 1 auto; min-height: 0; overflow: hidden; padding: 2mm 0; border-top: 0 !important; }
+.lbl-items ul { list-style: none; margin-top: .8mm; }
+.lbl-items li { display: flex; gap: 2mm; align-items: flex-start; font-size: 8.5pt; line-height: 1.3; padding: .5mm 0; }
+.lbl-items li b { flex: 0 0 auto; min-width: 5mm; height: 4.6mm; display: inline-grid; place-items: center; border: .3mm solid #000; border-radius: .8mm; font-size: 7.5pt; }
+.lbl-items li span { flex: 1 1 auto; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.lbl-more { font-size: 7.5pt; font-weight: 600; padding-top: .5mm; }
+.lbl-note { font-size: 8pt; line-height: 1.3; margin-top: 1.5mm; padding: 1.2mm 1.8mm; border: .3mm solid #000; border-radius: 1mm; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.lbl-note b { font-weight: 800; margin-right: 1mm; }
+
+/* Footer: barcode + courier zone */
+.lbl-foot { display: flex; gap: 3mm; padding-top: 2.5mm; align-items: stretch; }
+.lbl-code { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; justify-content: flex-end; }
+.codm-barcode { display: block; margin: 0 auto 0 0; }
+.lbl-foot--tracked .codm-barcode { margin: 0 auto; }
+.lbl-ref { display: flex; justify-content: space-between; align-items: baseline; gap: 2mm; margin-top: 1mm; font-size: 7.5pt; }
+.lbl-ref strong { font-size: 13pt; font-weight: 800; }
+.lbl-track { font-size: 8pt; font-weight: 700; margin-top: .3mm; }
+.lbl-carrier { flex: 0 0 38mm; border: .35mm dashed #000; border-radius: 1.5mm; padding: 1.5mm 2mm; display: flex; flex-direction: column; justify-content: space-between; min-height: 22mm; }
+.lbl-carrier [lang="ar"] { text-align: right; margin: 0; }
+
+/* ---------- Screen-only toolbar ---------- */
+.toolbar { position: sticky; top: 0; z-index: 2; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding: 12px 16px; background: #1c1b2e; color: #fff; font: 14px -apple-system, "Segoe UI", Roboto, sans-serif; }
+.toolbar strong { margin-right: auto; font-weight: 600; }
+.toolbar a, .toolbar button { color: #fff; background: transparent; border: 1px solid rgba(255,255,255,.35); border-radius: 6px; padding: 7px 12px; font: inherit; text-decoration: none; cursor: pointer; }
+.toolbar .is-active { background: #fff; color: #1c1b2e; border-color: #fff; }
+.toolbar .primary { background: #4636c9; border-color: #4636c9; }
+@media screen {
+	body { background: #e9e8ef; }
+	.sheet { padding: 20px; display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
+	.sheet--a4 { display: grid; justify-content: center; gap: 0; }
+	.lbl { background: #fff; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+	.sheet--a4 .lbl { box-shadow: none; }
+}
+@media print { .toolbar { display: none; } }
