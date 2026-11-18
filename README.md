@@ -36,7 +36,7 @@
 
 **[Download cod-manager-pro.zip](https://github.com/NIDACADEMY/cod-manager-pro/releases/latest/download/cod-manager-pro.zip)** (latest release), then upload it in **Plugins → Add New → Upload Plugin**.
 
-**[See the live demo store](https://www.cod-theme.com)** : a COD Store shop that runs COD Manager Pro behind the scenes.
+**[See the live demo store](https://www.cod-theme.com)**: a COD Store shop that runs COD Manager Pro behind the scenes.
 
 ## ⚙ How it works
 
