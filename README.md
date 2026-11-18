@@ -18,6 +18,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.cod-theme.com">Live demo</a> ·
   <a href="#-download">Download</a> ·
   <a href="#-how-it-works">How it works</a> ·
   <a href="#-screenshots">Screenshots</a> ·
@@ -34,6 +35,8 @@
 ## ⬇ Download
 
 **[Download cod-manager-pro.zip](https://github.com/NIDACADEMY/cod-manager-pro/releases/latest/download/cod-manager-pro.zip)** (latest release), then upload it in **Plugins → Add New → Upload Plugin**.
+
+**[See the live demo store](https://www.cod-theme.com)** : a COD Store shop that runs COD Manager Pro behind the scenes.
 
 ## ⚙ How it works
 
